@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="b6d66b0c-d2eb-44b5-be52-62171411c5ad"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/ptcrqx</alternateIdentifier>
+        <alternateIdentifier>https://ngpherbaria.org/portal/collections/misc/collprofiles.php?collid=132</alternateIdentifier>
+        <alternateIdentifier>http://ngpherbaria.org/portal/collections/misc/collprofiles.php?collid=132</alternateIdentifier>
+    <title>Black Hills State University Herbarium</title>
+    <creator>
+<organizationName>Great Plains Herbaria</organizationName><electronicMailAddress>seinetAdmin@asu.edu</electronicMailAddress><onlineUrl>https://ngpherbaria.org/portal/index.php</onlineUrl>    </creator>
+    <metadataProvider>
+<organizationName>Great Plains Herbaria</organizationName><electronicMailAddress>seinetAdmin@asu.edu</electronicMailAddress><onlineUrl>https://ngpherbaria.org/portal/index.php</onlineUrl>    </metadataProvider>
+    <associatedParty>
+    <individualName>
+          <surName>Grace Kostel</surName>
+    </individualName>
+<electronicMailAddress>Grace.Kostel@bhsu.edu</electronicMailAddress>    <role>CONTENT_PROVIDER</role>
+    </associatedParty>
+      <pubDate>
+      2022-09-02
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>The Herbarium has ca. 45,000 specimens and is one of the two largest herbaria in South Dakota. BHSC features the world’s largest collection of the distinctive vascular flora of the ecologically unique Black Hills of South Dakota and Wyoming. The collection contains vascular plants, algae, bryophytes and lichens. In addition, the collection consists of approximately 4000 specimens of fungi and slime molds, which include nearly all of the South Dakota state records. The extant vascular plant collection includes a limited number of specimens from around the world; including collections by A. Eastwood, P.O. Schallert, L.S. Rose, J.A. Calder, B.C. Tharp, W.H. Duncan, A.E. Radford, J.M. Gillet, C.G. Pringle, O. Degner, P.A. Munz, E.J. Palmer, K. Biswas, and B. Rosengurtt. Other important collections include those of F.L. Bennett (former BHSC Curator) and M.L. Kravig (Orchidologist). BHSC is also home to one of the largest collections of Miocene age plant fossils from the Great Plains of North America, with at least 10,000 fossils housed from throughout the Great Plains. Type collections of several fossil species from J.R. Thomasson and M.L. Gabel are held in the collection. Grasses (Poaceae), hackberries (Celtis, Ulmaceae), sedges (Cyperaceae) and borages (Boraginaceae) are well represented.</para>
+    </abstract>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <contact>
+<organizationName>Black Hills State University Herbarium</organizationName><phone>[1] 605/ 642-6251</phone><electronicMailAddress>Grace.Kostel@bhsu.edu</electronicMailAddress><onlineUrl>http://herbarium.bhsu.edu</onlineUrl>      </contact>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2022-09-05T14:31:40Z</dateStamp>
+      <citation>Black Hills State University Herbarium (2022). Black Hills State University Herbarium. Occurrence dataset https://doi.org/10.15468/ptcrqx accessed via GBIF.org on 2022-09-05.</citation>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

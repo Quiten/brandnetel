@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="fb38c6b0-6daf-4d84-97a5-43e5b0f6cbaa"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/7dr3yg</alternateIdentifier>
+        <alternateIdentifier>http://altb.asu.ru/ipt/resource?r=tigz</alternateIdentifier>
+        <alternateIdentifier>fb38c6b0-6daf-4d84-97a5-43e5b0f6cbaa</alternateIdentifier>
+    <title>Herbarium of the State Nature Reserve &quot;Tigireksky&quot; (TIGZ)</title>
+    <creator>
+    <individualName>
+<givenName>Alexey</givenName>          <surName>Vaganov</surName>
+    </individualName>
+<organizationName>Altai State University, South-Siberian Botanical Garden</organizationName><positionName>scientist</positionName>    <address>
+<deliveryPoint>Lenina str. 61</deliveryPoint><city>Barnaul</city><country>RUSSIAN_FEDERATION</country>    </address>
+<electronicMailAddress>vaganov_vav@mail.ru</electronicMailAddress><onlineUrl>https://sites.google.com/site/vaganovalexeyv</onlineUrl>      <userId directory="http://orcid.org/">0000-0002-7584-5150</userId>
+    </creator>
+    <metadataProvider>
+    <individualName>
+<givenName>Petr</givenName>          <surName>Kosachev</surName>
+    </individualName>
+<organizationName>Tigireksky State Nature Reserve</organizationName><positionName>scientist</positionName>    <address>
+<deliveryPoint>str. Nikitina 111</deliveryPoint><city>Barnaul</city><country>RUSSIAN_FEDERATION</country>    </address>
+<electronicMailAddress>pakosachev@yandex.ru</electronicMailAddress><onlineUrl>https://www.researchgate.net/profile/Petr_Kosachev</onlineUrl>      <userId directory="http://orcid.org/">0000-0002-4087-6336</userId>
+    </metadataProvider>
+    <metadataProvider>
+    <individualName>
+<givenName>Alexey</givenName>          <surName>Vaganov</surName>
+    </individualName>
+<organizationName>Altai State University, South-Siberian Botanical Garden</organizationName><positionName>scientist</positionName>    <address>
+<deliveryPoint>Lenina str. 61</deliveryPoint><city>Barnaul</city><country>RUSSIAN_FEDERATION</country>    </address>
+<electronicMailAddress>vaganov_vav@mail.ru</electronicMailAddress><onlineUrl>https://sites.google.com/site/vaganovalexeyv</onlineUrl>      <userId directory="http://orcid.org/">0000-0002-7584-5150</userId>
+    </metadataProvider>
+    <associatedParty>
+    <individualName>
+<givenName>Alexey</givenName>          <surName>Vaganov</surName>
+    </individualName>
+<organizationName>Altai State University, South-Siberian Botanical Garden</organizationName><positionName>scientist</positionName>    <address>
+<deliveryPoint>Lenina str. 61</deliveryPoint><city>Barnaul</city><country>RUSSIAN_FEDERATION</country>    </address>
+<electronicMailAddress>vaganov_vav@mail.ru</electronicMailAddress><onlineUrl>https://sites.google.com/site/vaganovalexeyv</onlineUrl>      <userId directory="http://orcid.org/">0000-0002-7584-5150</userId>
+    <role>PUBLISHER</role>
+    </associatedParty>
+      <pubDate>
+      2022-03-16
+      </pubDate>
+    <language>RUSSIAN</language>
+    <abstract>
+        <para>The Tigireksky State Nature Reserve is the only nature reserve in the Altai Territory. According the decree of the Government of the Russian Federation, 25 January 2022, the territory of the reserve was expanded up to 82.8 hectares. The reserve is significant for the conservation of nature and the enhancement of biodiversity in the region. The digital herbarium of the State Nature Reserve (TIGZ) is dedicated to the flora of the State Nature Reserve &amp;#34;Tigireksky&amp;#34;. The physical collections of the Herbarium TIGZ on the 14 February 2022 include about 3000 specimens of vascular plants. Visualization of samples is a modern trend in the flora investigation on protected areas and the management of their herbariums. The digital Herbarium of the reserve publishes its data on the web portal of the Virtual Herbarium of the South Siberian Botanical Garden of Altai State University (ALTB, altb.asu.ru).</para>
+    </abstract>
+        <keywordSet>
+              <keyword>Herbarium</keyword>
+              <keyword>Nature Reserve</keyword>
+              <keyword>Siberia</keyword>
+              <keyword>Altai</keyword>
+              <keyword>Occurrence</keyword>
+              <keyword>TIGZ</keyword>
+              <keyword>Russia</keyword>
+              <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <distribution scope="document">
+          <online>
+              <url function="information">http://altb.asu.ru</url>
+          </online>
+      </distribution>
+      <coverage>
+            <geographicCoverage>
+                  <geographicDescription>Tigireksky State Nature Reserve, Altai krai</geographicDescription>
+                  <boundingCoordinates>
+                      <westBoundingCoordinate>80.991</westBoundingCoordinate>
+                      <eastBoundingCoordinate>85.034</eastBoundingCoordinate>
+                      <northBoundingCoordinate>51.836</northBoundingCoordinate>
+                      <southBoundingCoordinate>50.233</southBoundingCoordinate>
+                  </boundingCoordinates>
+            </geographicCoverage>
+              <taxonomicCoverage>
+                    <taxonomicClassification>
+                          <taxonRankName>Kingdom</taxonRankName>
+                        <taxonRankValue>Plantae</taxonRankValue>
+                          <commonName>Plantae</commonName>
+                    </taxonomicClassification>
+              </taxonomicCoverage>
+      </coverage>
+      <maintenance>
+          <description>
+              <para></para>
+          </description>
+          <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+      </maintenance>
+      <contact>
+    <individualName>
+<givenName>Alexey</givenName>          <surName>Vaganov</surName>
+    </individualName>
+<organizationName>Altai State University, South-Siberian Botanical Garden</organizationName><positionName>scientist</positionName>    <address>
+<deliveryPoint>Lenina str. 61</deliveryPoint><city>Barnaul</city><country>RUSSIAN_FEDERATION</country>    </address>
+<electronicMailAddress>vaganov_vav@mail.ru</electronicMailAddress><onlineUrl>https://sites.google.com/site/vaganovalexeyv</onlineUrl>      <userId directory="http://orcid.org/">0000-0002-7584-5150</userId>
+      </contact>
+
+      <project >
+          <title>Tigireksky State Nature Reserve</title>
+          <personnel>
+    <individualName>
+<givenName>Petr</givenName>          <surName>Kosachev</surName>
+    </individualName>
+      <userId directory="http://orcid.org/">0000-0002-4087-6336</userId>
+    <role>AUTHOR</role>
+          </personnel>
+          <abstract>
+              <para></para>
+          </abstract>
+          <funding>
+              <para></para>
+          </funding>
+      </project>
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2022-09-05T14:31:33Z</dateStamp>
+      <citation identifier="http://altb.asu.ru">Vaganov A, Kosachev P (2022). Herbarium of the State Nature Reserve &quot;Tigireksky&quot; (TIGZ). Version 1.4. Altai State University. Occurrence dataset https://doi.org/10.15468/7dr3yg accessed via GBIF.org on 2022-09-05.</citation>
+              <collection>
+                <parentCollectionIdentifier></parentCollectionIdentifier>
+                <collectionIdentifier>ALTB (acronim)</collectionIdentifier>
+                <collectionName>Herbarium ALTB</collectionName>
+              </collection>
+                <specimenPreservationMethod>DRIED_AND_PRESSED</specimenPreservationMethod>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

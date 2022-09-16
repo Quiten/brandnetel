@@ -1,0 +1,24 @@
+When using this dataset please use the following citation and pay attention to the rights documented in rights.txt:
+Citizen Science - ALA Website (2022). ALA species sightings and OzAtlas. Occurrence dataset https://doi.org/10.15468/jayxmn accessed via GBIF.org on 2022-09-08.
+Questagame (2021). Earth Guardians Weekly Feed. Occurrence dataset https://doi.org/10.15468/slqqt8 accessed via GBIF.org on 2022-09-08.
+Botanic Garden and Botanical Museum Berlin (2019). BoBO - Botanic Garden and Botanical Museum Berlin Observations. Occurrence dataset https://doi.org/10.15468/9ll2gz accessed via GBIF.org on 2022-09-08.
+Staatliche Naturwissenschaftliche Sammlungen Bayerns. Water Colours of Fungi by Konrad Schieferdecker at the Botanische Staatssammlung München. Occurrence dataset https://doi.org/10.15468/342g8j accessed via GBIF.org on 2022-09-08.
+Orrell T, Informatics Office (2022). NMNH Extant Specimen Records (USNM, US). Version 1.60. National Museum of Natural History, Smithsonian Institution. Occurrence dataset https://doi.org/10.15468/hnhrg3 accessed via GBIF.org on 2022-09-08.
+Finnish Biodiversity Information Facility (2022). Collection contest. Occurrence dataset https://doi.org/10.15468/yt9puc accessed via GBIF.org on 2022-09-08.
+India Biodiversity Portal. India Biodiversity Portal publication grade dataset. Occurrence dataset https://doi.org/10.15468/rs5upd accessed via GBIF.org on 2022-09-08.
+Høiland K (2022). Photographs of higher plants, mosses, fungi, lichens, and algae. Version 1.17. University of Oslo. Occurrence dataset https://doi.org/10.15468/ft0c5f accessed via GBIF.org on 2022-09-08.
+Svirin S, Pospelov I, Panasenko N, Seregin A P, Shilnikov D, Golyakov P, Nesterova S, Kosachev P, Chimitov D, Suslova E, Ebel A L, Gamova N, Dudov S, Pyak A (2021). "Flora of Russia" on iNaturalist: a trusted backlog. Version 1.4. Lomonosov Moscow State University. Occurrence dataset https://doi.org/10.15468/956zqa accessed via GBIF.org on 2022-09-08.
+Reshetnikova N, Kudryavtseva E, Petrash E, Lapin A (2020). Collections of Bioclass, school #179, Moscow. Version 1.5. Lomonosov Moscow State University. Occurrence dataset https://doi.org/10.15468/4f0bmt accessed via GBIF.org on 2022-09-08.
+Staatliche Naturwissenschaftliche Sammlungen Bayerns. Occurrence Data of Vascular Plants collected or compiled for the Flora of Bavaria. Occurrence dataset https://doi.org/10.15468/osi63h accessed via GBIF.org on 2022-09-08.
+Finnish Biodiversity Information Facility (2022). Löydös Open Finnish Observation Database. Occurrence dataset https://doi.org/10.15468/8fzv2j accessed via GBIF.org on 2022-09-08.
+Citizen Science Observation Dataset B, Tiago P (2020). Biodiversity4all Research-Grade Observations. BioDiversity4All. Occurrence dataset https://doi.org/10.15468/njmmp7 accessed via GBIF.org on 2022-09-08.
+Finnish Biodiversity Information Facility (2022). Lajitietokeskus/FinBIF - Notebook, general observations. Occurrence dataset https://doi.org/10.15468/4g56tp accessed via GBIF.org on 2022-09-08.
+Vestergaard P, Calabuig I (2018). Vascular plants in Danish coastal meadows. Version 1.6. Department of Biology, University of Copenhagen. Occurrence dataset https://doi.org/10.15468/d6rsav accessed via GBIF.org on 2022-09-08.
+Estonian Naturalists’ Society. Estonian Naturalists’ Society. Occurrence dataset https://doi.org/10.15468/bmk3ab accessed via GBIF.org on 2022-09-08.
+Barstow S (2021). Images and observations of mostly edible plants in Stephen Barstow’s Edible Garden in Norway, taken between 2005 and 2014. Version 1.2. GBIF Norway. Occurrence dataset https://doi.org/10.15468/dkhtjv accessed via GBIF.org on 2022-09-08.
+Liljeblad J (2022). Artportalen (Swedish Species Observation System). Version 92.276. SLU Artdatabanken. Occurrence dataset https://doi.org/10.15468/kllkyl accessed via GBIF.org on 2022-09-08.
+Arter project group (2020). Species recordings from the Danish National portal Arter.dk. Miljøstyrelsen / The Danish Environmental Protection Agency. Occurrence dataset https://doi.org/10.15468/q3yy4u accessed via GBIF.org on 2022-09-08.
+The Norwegian Biodiversity Information Centre ., Hoem S (2022). Norwegian Species Observation Service. Version 1.191. The Norwegian Biodiversity Information Centre (NBIC). Occurrence dataset https://doi.org/10.15468/zjbzel accessed via GBIF.org on 2022-09-08.
+AFFOUARD A, JOLY A, LOMBARDO J, CHAMP J, GOEAU H, BONNET P (2020). Pl@ntNet observations. Version 1.2. Pl@ntNet. Occurrence dataset https://doi.org/10.15468/gtebaa accessed via GBIF.org on 2022-09-08.
+de Vries H, Lemmens M (2022). Observation.org, Nature data from around the World. Observation.org. Occurrence dataset https://doi.org/10.15468/5nilie accessed via GBIF.org on 2022-09-08.
+iNaturalist contributors, iNaturalist (2022). iNaturalist Research-grade Observations. iNaturalist.org. Occurrence dataset https://doi.org/10.15468/ab3s5x accessed via GBIF.org on 2022-09-08.

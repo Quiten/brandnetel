@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="202cdfcf-0eac-4696-9e48-4797c562ff41"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/83cb4a</alternateIdentifier>
+        <alternateIdentifier>http://tun.fi/HR.168</alternateIdentifier>
+    <title>Vascular Plant Herbarium: Herbarium Generale</title>
+      <pubDate>
+      2022-08-25
+      </pubDate>
+    <language>en</language>
+    <abstract>
+        <para>Vascular plant collections of the Botanical Museum, University of Helsinki (H): General herbarium (areas outside Finland, Russian Fennoscandia and Nordic Countries)</para>
+    </abstract>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <coverage>
+            <geographicCoverage>
+                  <geographicDescription>Worldwide except for Finland, Russian Fennoscandia, Denmark, Iceland, Norway (incl. Svalbard), Sweden</geographicDescription>
+                  <boundingCoordinates>
+                      <westBoundingCoordinate>-171.083</westBoundingCoordinate>
+                      <eastBoundingCoordinate>160</eastBoundingCoordinate>
+                      <northBoundingCoordinate>70.69</northBoundingCoordinate>
+                      <southBoundingCoordinate>-34.357</southBoundingCoordinate>
+                  </boundingCoordinates>
+            </geographicCoverage>
+          <temporalCoverage>
+            <rangeOfDates>
+              <beginDate>
+                <calendarDate>      1785-07-01
+</calendarDate>
+              </beginDate>
+              <endDate>
+                <calendarDate>      2011-03-06
+</calendarDate>
+              </endDate>
+            </rangeOfDates>
+          </temporalCoverage>
+              <taxonomicCoverage>
+                    <taxonomicClassification>
+                          <taxonRankName>Kingdom</taxonRankName>
+                        <taxonRankValue>Plantae</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Kingdom</taxonRankName>
+                        <taxonRankValue>Animalia</taxonRankValue>
+                    </taxonomicClassification>
+              </taxonomicCoverage>
+      </coverage>
+      <contact>
+    <individualName>
+<givenName>Henry</givenName>          <surName>Väre</surName>
+    </individualName>
+<electronicMailAddress>henry.vare@helsinki.fi</electronicMailAddress>      </contact>
+      <contact>
+    <individualName>
+          <surName>FinBIF</surName>
+    </individualName>
+<electronicMailAddress>helpdesk@laji.fi</electronicMailAddress>      </contact>
+      <methods>
+            <sampling>
+                <studyExtent>
+                    <description>
+                        <para></para>
+                    </description>
+                </studyExtent>
+                <samplingDescription>
+                    <para>Dried specimens mounted on herbarium sheets</para>
+                </samplingDescription>
+            </sampling>
+      </methods>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2022-09-05T14:31:42Z</dateStamp>
+      <citation>Finnish Biodiversity Information Facility (2022). Vascular Plant Herbarium: Herbarium Generale. Occurrence dataset https://doi.org/10.15468/83cb4a accessed via GBIF.org on 2022-09-05.</citation>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

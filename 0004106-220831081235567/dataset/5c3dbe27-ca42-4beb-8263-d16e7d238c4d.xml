@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="5c3dbe27-ca42-4beb-8263-d16e7d238c4d"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/bquqpv</alternateIdentifier>
+    <title>Estonian Museum of Natural History Department of Botany</title>
+    <creator>
+    <individualName>
+<givenName>Loore</givenName>          <surName>Ehrlich</surName>
+    </individualName>
+<positionName>Curator</positionName><electronicMailAddress>loore.ehrlich@loodusmuuseum.ee</electronicMailAddress>    </creator>
+    <metadataProvider>
+    <individualName>
+<givenName>Loore</givenName>          <surName>Ehrlich</surName>
+    </individualName>
+<positionName>Curator</positionName><electronicMailAddress>loore.ehrlich@loodusmuuseum.ee</electronicMailAddress>    </metadataProvider>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>The vascular plant herbarium includes 90,000 specimens, of which 88,700 are leaves, and the rest fruits, seeds, and strobili. Most of the material was collected in Estonia, and the collection contains specimens of a predominant part of the domestic flora - 1,600 taxons.
+
+The bryophyte herbarium includes 32,000 specimens, of which nearly two thirds were collected in Estonia. Bryoflora from the Estonian islands and coastal areas is especially well represented. Of the 601 Estonian moss species, the herbarium contains 481. The general herbarium that holds foreign moss samples contains a little over 2 000 species. Mosses from the Arctic area, Australia, and Papua New Guinea are well represented. The oldest specimen in the moss herbarium dates back to the year 1854.</para>
+    </abstract>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <distribution scope="document">
+          <online>
+              <url function="information">https://elurikkus.ee/en/collections/plants</url>
+          </online>
+      </distribution>
+      <coverage>
+      </coverage>
+      <contact>
+    <individualName>
+<givenName>Loore</givenName>          <surName>Ehrlich</surName>
+    </individualName>
+<positionName>Curator</positionName><electronicMailAddress>loore.ehrlich@loodusmuuseum.ee</electronicMailAddress>      </contact>
+      <contact>
+    <individualName>
+<givenName>Jana-Maria</givenName>          <surName>Habicht</surName>
+    </individualName>
+<positionName>Curator</positionName><electronicMailAddress>jana-maria.habicht@loodusmuuseum.ee</electronicMailAddress>      </contact>
+
+      <project >
+          <title></title>
+          <abstract>
+              <para></para>
+          </abstract>
+          <funding>
+              <para></para>
+          </funding>
+      </project>
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2022-09-05T14:31:41Z</dateStamp>
+      <citation>Ehrlich L. Estonian Museum of Natural History Department of Botany. Estonian Museum of Natural History. Occurrence dataset https://doi.org/10.15468/bquqpv accessed via GBIF.org on 2022-09-05.</citation>
+              <resourceLogoUrl>https://files.plutof.ut.ee/public/orig/0F/C4/0FC4221A24D12DF8B638A2A82B2083C613523D55A6C09506BD29DC3159FA0DC9.png</resourceLogoUrl>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

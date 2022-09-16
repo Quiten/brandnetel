@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="7c5e863f-3f70-4933-b05d-fc57c66dd3f3"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/wyofjv</alternateIdentifier>
+        <alternateIdentifier>https://botanydb.colorado.edu:443/collections/misc/collprofiles.php?collid=1</alternateIdentifier>
+    <title>University of Colorado Museum of Natural History Herbarium Vascular Plant Collection</title>
+    <creator>
+<organizationName>University of Colorado Museum of Natural History Herbarium</organizationName><onlineUrl>https://botanydb.colorado.edu:443/index.php</onlineUrl>    </creator>
+    <metadataProvider>
+<organizationName>University of Colorado Museum of Natural History Herbarium</organizationName><onlineUrl>https://botanydb.colorado.edu:443/index.php</onlineUrl>    </metadataProvider>
+    <associatedParty>
+<organizationName>University of Colorado Museum of Natural History Herbarium Vascular Plant Collection</organizationName><positionName>Collection Manager</positionName><electronicMailAddress>james.r.allen@colorado.edu</electronicMailAddress>    <role>CONTENT_PROVIDER</role>
+    </associatedParty>
+      <pubDate>
+      2022-02-01
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>Herbarium COLO is the Botany Section of the University of Colorado Museum of Natural History on the Boulder campus. The Herbarium is available to anyone with an interest in botany. Users include faculty and students, visiting scholars, private consultants, local naturalists, and botanists from a variety of public and private agencies.   CollectionSpecimensTranscribed SpecimensSkeletal RecordsImagesVerified GeoreferencesVascular Plants320,000135,94396,178232,12184,866Lichens102,00054,76110950,3330Bryophytes119,00052,15811,12063,2780   &lt;strong&gt; Collection strengths: &lt;/strong&gt;</para>
+        <para>Colorado, Southern Rocky Mountains and Western North American vascular plants and cryptogams, worldwide arctic and alpine, Appalachia, Galapagos Lichens, Australia, New Guinea, Altai, Mexico and the Seville Flowers Bryophyte Collection.</para>
+        <para>&lt;strong&gt;Digitization:&lt;/strong&gt;</para>
+        <para>Digitization efforts have been focused on North American vascular plants, lichens and bryophytes with an emphasis on Colorado specimens. All Colorado vascular and cryptogam specimens have been imaged and entered into the database. Images for North American vascular plants are captured for 18 families under the Tri-Trophic TCN. North American lichen packets have been imaged and transcribed http://lichenportal.org/portal. All North American bryophyte packets have been imaged and all Colorado specimens have been transcribed and are available at http://bryophyteportal.org/portal. 110,000 vascular plant specimens worldwide and 55,000 bryophytes and 47,000 lichens from outside of North America have not been digitized.</para>
+    </abstract>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <contact>
+<organizationName>University of Colorado Museum of Natural History Herbarium Vascular Plant Collection</organizationName><electronicMailAddress>james.r.allen@colorado.edu</electronicMailAddress><onlineUrl>https://botanydb.colorado.edu</onlineUrl>      </contact>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2022-09-05T14:31:34Z</dateStamp>
+      <citation>University of Colorado Museum of Natural History (2022). University of Colorado Museum of Natural History Herbarium Vascular Plant Collection. Occurrence dataset https://doi.org/10.15468/wyofjv accessed via GBIF.org on 2022-09-05.</citation>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="e2bec7d1-c0fe-4315-bac9-6c1ce3128309"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/qz8uyh</alternateIdentifier>
+        <alternateIdentifier>https://intermountainbiota.org/portal/collections/misc/collprofiles.php?collid=461</alternateIdentifier>
+    <title>Dinosaur National Monument Herbarium</title>
+    <creator>
+<organizationName>Consortium of Intermountain Herbaria</organizationName><electronicMailAddress>seinetAdmin@asu.edu</electronicMailAddress><onlineUrl>https://intermountainbiota.org/portal/index.php</onlineUrl>    </creator>
+    <metadataProvider>
+<organizationName>Consortium of Intermountain Herbaria</organizationName><electronicMailAddress>seinetAdmin@asu.edu</electronicMailAddress><onlineUrl>https://intermountainbiota.org/portal/index.php</onlineUrl>    </metadataProvider>
+    <associatedParty>
+    <individualName>
+          <surName>Emily Spencer and ReBecca Hunt Foster</surName>
+    </individualName>
+<electronicMailAddress>emily_spencer@nps.gov; rebecca_hunt-foster@np</electronicMailAddress>    <role>CONTENT_PROVIDER</role>
+    </associatedParty>
+      <pubDate>
+      2022-09-02
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>Dinosaur’s herbarium represents and perpetuates a longtime legacy of botanists collecting, curating, and researching plant taxa within the park, as well as the monument’s remarkable flora. Situated at the convergence of five ecoregions, and featuring a wide range of geology and topography, the Monument has historically been a study site for dozens of rare, local and edaphic endemic plants, with at least 11 type specimens, and 95 species currently listed as special status or of conservation concern. The herbarium’s physical and digital presence is home to over 800 taxa and almost 3,000 specimens, part of an increasingly vital network of Intermountain botanical resources.</para>
+    </abstract>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <contact>
+<organizationName>Dinosaur National Monument Herbarium</organizationName><phone>970-374-3055; 435-781-7703</phone><electronicMailAddress>emily_spencer@nps.gov; rebecca_hunt-foster@np</electronicMailAddress>      </contact>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2022-09-05T14:31:34Z</dateStamp>
+      <citation>Dinosaur National Monument (2022). Dinosaur National Monument Herbarium. Occurrence dataset https://doi.org/10.15468/qz8uyh accessed via GBIF.org on 2022-09-05.</citation>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

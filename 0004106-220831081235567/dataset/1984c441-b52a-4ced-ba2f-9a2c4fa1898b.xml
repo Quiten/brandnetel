@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="1984c441-b52a-4ced-ba2f-9a2c4fa1898b"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/iykbez</alternateIdentifier>
+        <alternateIdentifier>https://midwestherbaria.org/portal/collections/misc/collprofiles.php?collid=191</alternateIdentifier>
+        <alternateIdentifier>http://midwestherbaria.org/portal/collections/misc/collprofiles.php?collid=191</alternateIdentifier>
+    <title>Central Michigan University Herbarium</title>
+    <creator>
+<organizationName>Consortium of Midwest Herbaria</organizationName><electronicMailAddress>seinetAdmin@asu.edu</electronicMailAddress><onlineUrl>https://midwestherbaria.org/portal/index.php</onlineUrl>    </creator>
+    <metadataProvider>
+<organizationName>Consortium of Midwest Herbaria</organizationName><electronicMailAddress>seinetAdmin@asu.edu</electronicMailAddress><onlineUrl>https://midwestherbaria.org/portal/index.php</onlineUrl>    </metadataProvider>
+    <associatedParty>
+    <individualName>
+          <surName>Anna Monfils, Director</surName>
+    </individualName>
+<electronicMailAddress>monfi1ak@cmich.edu</electronicMailAddress>    <role>CONTENT_PROVIDER</role>
+    </associatedParty>
+      <pubDate>
+      2022-09-01
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>The Central Michigan University Herbarium (CMC) strives to integrate research and education, providing centralized botanical resources, research facilities, and educational opportunities to the University and broader scientific community.</para>
+    </abstract>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <contact>
+<organizationName>Central Michigan University Herbarium</organizationName><electronicMailAddress>monfi1ak@cmich.edu</electronicMailAddress><onlineUrl>http://cmcherbarium.bio.cmich.edu/</onlineUrl>      </contact>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2022-09-05T14:31:38Z</dateStamp>
+      <citation>Central Michigan University Herbarium (2022). Central Michigan University Herbarium. Occurrence dataset https://doi.org/10.15468/iykbez accessed via GBIF.org on 2022-09-05.</citation>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

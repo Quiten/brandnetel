@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="e3282b0b-a881-472b-ab98-6881960b2c3f"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/v6w6h6</alternateIdentifier>
+        <alternateIdentifier>https://sernecportal.org/portal/collections/misc/collprofiles.php?collid=361</alternateIdentifier>
+    <title>Hollister Herbarium at TN Tech University</title>
+    <creator>
+<organizationName>SERNEC</organizationName><electronicMailAddress>herrick.brown@gmail.com</electronicMailAddress><onlineUrl>https://sernecportal.org/portal/index.php</onlineUrl>    </creator>
+    <metadataProvider>
+<organizationName>SERNEC</organizationName><electronicMailAddress>herrick.brown@gmail.com</electronicMailAddress><onlineUrl>https://sernecportal.org/portal/index.php</onlineUrl>    </metadataProvider>
+    <associatedParty>
+    <individualName>
+<givenName>Shawn</givenName>          <surName>Krosnick</surName>
+    </individualName>
+<positionName>Director</positionName><electronicMailAddress>skrosnick@tntech.edu</electronicMailAddress>      <userId directory="https://orcid.org/">0000-0002-8027-5295</userId>
+    <role>CONTENT_PROVIDER</role>
+    </associatedParty>
+      <pubDate>
+      2022-09-02
+      </pubDate>
+    <language>ENGLISH</language>
+      <intellectualRights>
+        <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+      </intellectualRights>
+      <contact>
+<organizationName>Hollister Herbarium at TN Tech University</organizationName><phone>931-372-6194</phone><electronicMailAddress>skrosnick@tntech.edu</electronicMailAddress><onlineUrl>https://www.tntech.edu/cas/biology/herbarium/index.php</onlineUrl>      <userId directory="https://orcid.org/">0000-0002-8027-5295</userId>
+      </contact>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2022-09-05T14:31:34Z</dateStamp>
+      <citation>Hollister Herbarium at Tennessee Tech University (2022). Hollister Herbarium at TN Tech University. Occurrence dataset https://doi.org/10.15468/v6w6h6 accessed via GBIF.org on 2022-09-05.</citation>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

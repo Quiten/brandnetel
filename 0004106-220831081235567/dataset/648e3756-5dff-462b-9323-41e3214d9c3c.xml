@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="648e3756-5dff-462b-9323-41e3214d9c3c"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/weknsr</alternateIdentifier>
+        <alternateIdentifier>https://sernecportal.org/portal/collections/misc/collprofiles.php?collid=258</alternateIdentifier>
+    <title>University of Georgia Herbarium</title>
+    <creator>
+<organizationName>SERNEC</organizationName><electronicMailAddress>herrick.brown@gmail.com</electronicMailAddress><onlineUrl>https://sernecportal.org/portal/index.php</onlineUrl>    </creator>
+    <metadataProvider>
+<organizationName>SERNEC</organizationName><electronicMailAddress>herrick.brown@gmail.com</electronicMailAddress><onlineUrl>https://sernecportal.org/portal/index.php</onlineUrl>    </metadataProvider>
+    <associatedParty>
+    <individualName>
+          <surName>Steven Hughes</surName>
+    </individualName>
+<electronicMailAddress>sthughes@uga.edu</electronicMailAddress>    <role>CONTENT_PROVIDER</role>
+    </associatedParty>
+      <pubDate>
+      2022-07-01
+      </pubDate>
+    <language>ENGLISH</language>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <contact>
+<organizationName>University of Georgia Herbarium</organizationName><electronicMailAddress>sthughes@uga.edu</electronicMailAddress><onlineUrl>http://www.plantbio.uga.edu/herbarium/</onlineUrl>      </contact>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2022-09-05T14:31:40Z</dateStamp>
+      <citation>University of Georgia Herbarium [GA] (2022). University of Georgia Herbarium. Occurrence dataset https://doi.org/10.15468/weknsr accessed via GBIF.org on 2022-09-05.</citation>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="2dda31ff-f776-452f-9a4b-d5229f6e3494"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/y6xmme</alternateIdentifier>
+        <alternateIdentifier>http://altb.asu.ru/ipt/resource?r=altb</alternateIdentifier>
+        <alternateIdentifier>2dda31ff-f776-452f-9a4b-d5229f6e3494</alternateIdentifier>
+        <alternateIdentifier>http://gbif.ru:8080/ipt/resource?r=altb</alternateIdentifier>
+    <title>Virtual Herbarium ALTB (South-Siberian Botanical Garden)</title>
+    <creator>
+    <individualName>
+<givenName>Alexey</givenName>          <surName>Vaganov</surName>
+    </individualName>
+<organizationName>Altai State University, South-Siberian Botanical Garden</organizationName><positionName>scientist</positionName>    <address>
+<deliveryPoint>Lenina str. 61</deliveryPoint><city>Barnaul</city><administrativeArea>Altai krai</administrativeArea><country>RUSSIAN_FEDERATION</country>    </address>
+<electronicMailAddress>vaganov_vav@mail.ru</electronicMailAddress><onlineUrl>https://sites.google.com/site/vaganovalexeyv</onlineUrl>      <userId directory="http://orcid.org/">0000-0002-7584-5150</userId>
+    </creator>
+    <creator>
+    <individualName>
+<givenName>Alexey</givenName>          <surName>Vaganov</surName>
+    </individualName>
+<organizationName>Altai State University, South-Siberian Botanical Garden</organizationName><positionName>scientist</positionName>    <address>
+<deliveryPoint>Lenina str. 61</deliveryPoint><city>Barnaul</city><administrativeArea>Altai krai</administrativeArea><country>RUSSIAN_FEDERATION</country>    </address>
+<electronicMailAddress>vaganov_vav@mail.ru</electronicMailAddress><onlineUrl>https://sites.google.com/site/vaganovalexeyv</onlineUrl>      <userId directory="http://orcid.org/">0000-0002-7584-5150</userId>
+    </creator>
+    <metadataProvider>
+    <individualName>
+<givenName>Alexander</givenName>          <surName>Shmakov</surName>
+    </individualName>
+<organizationName>Altai State University, South-Siberian Botanical Garden</organizationName><positionName>scientist</positionName>    <address>
+<deliveryPoint>Lenina str. 61</deliveryPoint><city>Barnaul</city><administrativeArea>Altai krai</administrativeArea><country>RUSSIAN_FEDERATION</country>    </address>
+<electronicMailAddress>alex_shmakov@mail.ru</electronicMailAddress><onlineUrl>http://www.asu.ru/search/persons/371/</onlineUrl>      <userId directory="http://orcid.org/">0000-0002-8545-3003</userId>
+    </metadataProvider>
+    <metadataProvider>
+    <individualName>
+<givenName>Vladimir</givenName>          <surName>Zaikov</surName>
+    </individualName>
+<organizationName>Altai State University, South-Siberian Botanical Garden</organizationName><positionName>scientist</positionName>    <address>
+<deliveryPoint>Lenina str. 61</deliveryPoint><city>Barnaul</city><administrativeArea>Altai krai</administrativeArea><country>RUSSIAN_FEDERATION</country>    </address>
+<electronicMailAddress>vz1703@mail.ru</electronicMailAddress>    </metadataProvider>
+    <metadataProvider>
+    <individualName>
+<givenName>Elizaveta</givenName>          <surName>Zholnerova</surName>
+    </individualName>
+<organizationName>Altai State University, South-Siberian Botanical Garden</organizationName><positionName>scientist</positionName>    <address>
+<deliveryPoint>Lenina str. 61</deliveryPoint><city>Barnaul</city><administrativeArea>Altai krai</administrativeArea><country>RUSSIAN_FEDERATION</country>    </address>
+<electronicMailAddress>zholnerova.liza@mail.ru</electronicMailAddress>    </metadataProvider>
+    <metadataProvider>
+    <individualName>
+<givenName>Alexander</givenName>          <surName>Shalimov</surName>
+    </individualName>
+<organizationName>Altai State University, South-Siberian Botanical Garden</organizationName><positionName>scientist</positionName>    <address>
+<deliveryPoint>Lenina str. 61</deliveryPoint><city>Barnaul</city><administrativeArea>Altai krai</administrativeArea><country>RUSSIAN_FEDERATION</country>    </address>
+<electronicMailAddress>man_biol@mail.ru</electronicMailAddress>      <userId directory="http://www.researcherid.com/rid/">https://www.researchgate.net/profile/Alexandr_Shalimov</userId>
+    </metadataProvider>
+    <metadataProvider>
+    <individualName>
+<givenName>Denis</givenName>          <surName>Belkin</surName>
+    </individualName>
+<organizationName>Altai State University, South-Siberian Botanical Garden</organizationName><positionName>scientist</positionName>    <address>
+<deliveryPoint>Lenina str. 61</deliveryPoint><city>Barnaul</city><administrativeArea>Altai krai</administrativeArea><country>RUSSIAN_FEDERATION</country>    </address>
+<electronicMailAddress>d.l.belkin@mail.ru</electronicMailAddress>    </metadataProvider>
+    <metadataProvider>
+    <individualName>
+<givenName>Alexander</givenName>          <surName>Batkin</surName>
+    </individualName>
+<organizationName>Altai State University, South-Siberian Botanical Garden</organizationName><positionName>scientist</positionName>    <address>
+<deliveryPoint>Lenina str. 61</deliveryPoint><city>Barnaul</city><administrativeArea>Altai krai</administrativeArea><country>RUSSIAN_FEDERATION</country>    </address>
+<electronicMailAddress>saschabatkin@mail.ru</electronicMailAddress>    </metadataProvider>
+    <metadataProvider>
+    <individualName>
+<givenName>Dmitry</givenName>          <surName>Kasatkin</surName>
+    </individualName>
+<organizationName>Altai State University, South-Siberian Botanical Garden</organizationName><positionName>scientist</positionName>    <address>
+<deliveryPoint>Lenina str. 61</deliveryPoint><city>Barnaul</city><administrativeArea>Altai krai</administrativeArea><country>RUSSIAN_FEDERATION</country>    </address>
+<electronicMailAddress>kasatkin.751@mail.ru</electronicMailAddress>    </metadataProvider>
+    <metadataProvider>
+    <individualName>
+<givenName>Petr</givenName>          <surName>Kosachev</surName>
+    </individualName>
+<organizationName>Altai State University, South-Siberian Botanical Garden</organizationName><positionName>scientist</positionName>    <address>
+<deliveryPoint>Lenina str. 61</deliveryPoint><city>Barnaul</city><administrativeArea>Altai krai</administrativeArea><country>RUSSIAN_FEDERATION</country>    </address>
+<electronicMailAddress>pakosachev@yandex.ru</electronicMailAddress><onlineUrl>https://www.researchgate.net/profile/Petr_Kosachev</onlineUrl>      <userId directory="http://orcid.org/">0000-0002-4087-6336</userId>
+    </metadataProvider>
+    <metadataProvider>
+    <individualName>
+<givenName>Evgenij</givenName>          <surName>Antonyuk</surName>
+    </individualName>
+<organizationName>Altai State University, South-Siberian Botanical Garden</organizationName><positionName>scientist</positionName>    <address>
+<deliveryPoint>Lenina str. 61</deliveryPoint><city>Barnaul</city><administrativeArea>Altai krai</administrativeArea><country>RUSSIAN_FEDERATION</country>    </address>
+<electronicMailAddress>evgenijantonyuk@gmail.com</electronicMailAddress><onlineUrl>https://sites.google.com/site/vaganovalexeyv</onlineUrl>      <userId directory="http://www.researcherid.com/rid/">https://www.researchgate.net/profile/Evgenij_Antonyuk</userId>
+    </metadataProvider>
+    <metadataProvider>
+    <individualName>
+<givenName>Kristina</givenName>          <surName>Medvedeva</surName>
+    </individualName>
+<organizationName>Altai State University, South-Siberian Botanical Garden</organizationName><positionName>scientist</positionName>    <address>
+<deliveryPoint>Lenina str. 61</deliveryPoint><city>Barnaul</city><administrativeArea>Altai krai</administrativeArea><country>RUSSIAN_FEDERATION</country>    </address>
+<electronicMailAddress>medwedewa-99@rambler.ru</electronicMailAddress>    </metadataProvider>
+    <metadataProvider>
+    <individualName>
+<givenName>Nadja</givenName>          <surName>Usik</surName>
+    </individualName>
+<organizationName>Altai State University, South-Siberian Botanical Garden</organizationName><positionName>scientist</positionName>    <address>
+<deliveryPoint>Lenina str. 61</deliveryPoint><city>Barnaul</city><administrativeArea>Altai krai</administrativeArea><country>RUSSIAN_FEDERATION</country>    </address>
+<electronicMailAddress>nadja.usik@mail.ru</electronicMailAddress>    </metadataProvider>
+    <metadataProvider>
+    <individualName>
+<givenName>Polina</givenName>          <surName>Gudkova</surName>
+    </individualName>
+<organizationName>Department of Botany, Altai State university</organizationName><positionName>PhD, Associate Professor</positionName>    <address>
+<deliveryPoint>Lenina str. 61</deliveryPoint><city>Barnaul</city><administrativeArea>Altai krai</administrativeArea><country>RUSSIAN_FEDERATION</country>    </address>
+<electronicMailAddress>PDGudkova2017@yandex.ru</electronicMailAddress><onlineUrl>https://www.researchgate.net/profile/Polina_Gudkova</onlineUrl>      <userId directory="http://orcid.org/">0000-0002-6537-8018</userId>
+    </metadataProvider>
+    <metadataProvider>
+    <individualName>
+<givenName>Elizaveta</givenName>          <surName>Kriuchkova</surName>
+    </individualName>
+<organizationName>Department of Botany, Altai State university</organizationName><positionName>scientist</positionName>    <address>
+<deliveryPoint>Lenina str. 61</deliveryPoint><city>Barnaul</city><administrativeArea>Altai krai</administrativeArea><country>RUSSIAN_FEDERATION</country>    </address>
+<electronicMailAddress>79831087227@yandex.ru</electronicMailAddress><onlineUrl>https://www.researchgate.net/profile/Elizaveta_Kriuchkova</onlineUrl>      <userId directory="http://orcid.org/">0000-0003-3704-1730</userId>
+    </metadataProvider>
+    <metadataProvider>
+    <individualName>
+<givenName>Darya</givenName>          <surName>Ryzhakova</surName>
+    </individualName>
+<organizationName>Department of Botany, Altai State university</organizationName><positionName>scientist</positionName>    <address>
+<deliveryPoint>Lenina str. 61</deliveryPoint><city>Barnaul</city><administrativeArea>Altai krai</administrativeArea><country>RUSSIAN_FEDERATION</country>    </address>
+<electronicMailAddress>rizhakovadasha@yandex.ru</electronicMailAddress><onlineUrl>https://www.researchgate.net/profile/Darya_Ryzhakova</onlineUrl>      <userId directory="http://orcid.org/">0000-0002-7477-0257</userId>
+    </metadataProvider>
+    <metadataProvider>
+    <individualName>
+<givenName>Denis</givenName>          <surName>Dmitriev</surName>
+    </individualName>
+<organizationName>Altai State University, South-Siberian Botanical Garden</organizationName><positionName>scientist</positionName>    <address>
+<deliveryPoint>Lenina str. 61</deliveryPoint><city>Barnaul</city><administrativeArea>Altai krai</administrativeArea><country>RUSSIAN_FEDERATION</country>    </address>
+<electronicMailAddress>dmitriev.d.a@vc.asu.ru</electronicMailAddress>    </metadataProvider>
+      <pubDate>
+      2022-06-30
+      </pubDate>
+    <language>RUSSIAN</language>
+    <abstract>
+        <para>&amp;#34;Virtual Herbarium ALTB&amp;#34; is a digital collection of Herbarium ALTB specimens (Barnaul, Altai State University). It is one of the most dynamically developing Herbaria in Russia, and ranks seventh in the country in terms of herbarium specimen’s number (over 450,000 sheets). Herbarium ALTB is the largest collection of plants from transboundary territory of the Altai Mountainous Country and the main empirical material of the project &amp;#34;Flora Altaica&amp;#34; (http://altaiflora.asu.ru). The Altai and Sayan territories are included to the list of program &amp;#34;The Global 200. Priority ecoregions for global conservation&amp;#34;.</para>
+    </abstract>
+        <keywordSet>
+              <keyword>Herbarium</keyword>
+              <keyword>typus</keyword>
+              <keyword>Mongolia</keyword>
+              <keyword>Altai-Sayan ecoregion</keyword>
+              <keyword>China</keyword>
+              <keyword>ALTB</keyword>
+              <keyword>Altai</keyword>
+              <keyword>Siberia</keyword>
+              <keyword>occurrence</keyword>
+              <keyword>Kazakhstan</keyword>
+              <keyword>Russia</keyword>
+              <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <distribution scope="document">
+          <online>
+              <url function="information">http://altb.asu.ru</url>
+          </online>
+      </distribution>
+      <coverage>
+            <geographicCoverage>
+                  <geographicDescription>The database contains an information on the biological diversity of the Altai Mountain Country (AMC) within the territories of Russia, Mongolia, China and Kazakhstan.</geographicDescription>
+                  <boundingCoordinates>
+                      <westBoundingCoordinate>65.742</westBoundingCoordinate>
+                      <eastBoundingCoordinate>114.609</eastBoundingCoordinate>
+                      <northBoundingCoordinate>60.065</northBoundingCoordinate>
+                      <southBoundingCoordinate>37.996</southBoundingCoordinate>
+                  </boundingCoordinates>
+            </geographicCoverage>
+              <taxonomicCoverage>
+                    <taxonomicClassification>
+                          <taxonRankName>Kingdom</taxonRankName>
+                        <taxonRankValue>Plantae</taxonRankValue>
+                          <commonName>Plantae</commonName>
+                    </taxonomicClassification>
+              </taxonomicCoverage>
+      </coverage>
+      <maintenance>
+          <description>
+              <para></para>
+          </description>
+          <maintenanceUpdateFrequency>biannually</maintenanceUpdateFrequency>
+      </maintenance>
+      <contact>
+    <individualName>
+<givenName>Alexey</givenName>          <surName>Vaganov</surName>
+    </individualName>
+<organizationName>Altai State University, South-Siberian Botanical Garden</organizationName><positionName>scientist</positionName>    <address>
+<deliveryPoint>Lenina str. 61</deliveryPoint><city>Barnaul</city><administrativeArea>Altai krai</administrativeArea><country>RUSSIAN_FEDERATION</country>    </address>
+<electronicMailAddress>vaganov_vav@mail.ru</electronicMailAddress><onlineUrl>https://sites.google.com/site/vaganovalexeyv</onlineUrl>      <userId directory="http://orcid.org/">0000-0002-7584-5150</userId>
+      </contact>
+      <methods>
+            <methodStep>
+                <description>
+                    <para></para>
+                </description>
+            </methodStep>
+      </methods>
+
+      <project id="N-Eurasia-Russia2021">
+          <title>Russia 2021</title>
+          <personnel>
+    <individualName>
+<givenName>Alexey</givenName>          <surName>Vaganov</surName>
+    </individualName>
+      <userId directory="http://orcid.org/">0000-0002-7584-5150</userId>
+    <role>CONTENT_PROVIDER</role>
+          </personnel>
+          <abstract>
+              <para></para>
+          </abstract>
+          <funding>
+              <para></para>
+          </funding>
+      </project>
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2022-09-05T14:31:33Z</dateStamp>
+      <citation identifier="http://altb.asu.ru">Vaganov A, Shmakov A, Zaikov V, Zholnerova E, Shalimov A, Belkin D, Batkin A, Kasatkin D, Kosachev P, Antonyuk E, Medvedeva K, Usik N, Gudkova P, Kriuchkova E, Ryzhakova D, Dmitriev D (2022). Virtual Herbarium ALTB (South-Siberian Botanical Garden). Version 1.43. Altai State University. Occurrence dataset https://doi.org/10.15468/y6xmme accessed via GBIF.org on 2022-09-05.</citation>
+              <bibliography>
+      <citation>Vaganov AV, Shmakov AI, Smirnov SV, Usik NA, Shibanova AA, Kechaykin AA, Kosachev PA, Kopytina TM, Zholnerova EA, Medvedeva KE, Zaikov VF, Sinitsyna TA, Shalimov AP, Antonyuk EV, Gudkova PD, Dmitriev DA, Batkin AA, Kasatkin DE, Belkin DL (2021) Virtual Herbarium ALTB: collection of vascular plants of the Altai Mountain Country. Biodiversity Data Journal 9: e67616. https://doi.org/10.3897/BDJ.9.e67616</citation>
+      <citation>Vaganov AV, Medvedeva KE (2020) Current state and prospects for the development of the digital collection &quot;Virtual Herbarium ALTB&quot;. Problems of Botany of Southern Siberia and Mongolia, 19, 1: 260–263. https://doi.org/10.14258/pbssm.2020051</citation>
+      <citation>Vaganov AV, Shmakov AI, Gudkova PD (2019) Global data on biodiversity of the Altai mountain country, presented in the world&apos;s scientific depositories. Acta Biologica Sibirica, 5(2), 95–101. https://doi.org/10.14258/abs.v5.i2.5937</citation>
+      <citation>Vaganov AV, Medvedeva K, Sinitsyna T. Complex of open access databases of Altai State University for the purposes of the Altai-Sayan ecoregion research. Abstracts of the conference &quot;Information Technologies in the Research of Biodiversity&quot; (BIT-2018). Irkutsk: ISDCT SB RAS, 2018. pp. 39–41.</citation>
+              </bibliography>
+              <collection>
+                <parentCollectionIdentifier></parentCollectionIdentifier>
+                <collectionIdentifier>ALTB (acronim)</collectionIdentifier>
+                <collectionName>Herbarium ALTB</collectionName>
+              </collection>
+                <specimenPreservationMethod>DRIED_AND_PRESSED</specimenPreservationMethod>
+                  <jgtiCuratorialUnit>
+                      <jgtiUnitType>list</jgtiUnitType>
+                      <jgtiUnitRange>
+                          <beginRange>1</beginRange>
+                          <endRange>450,000</endRange>
+                      </jgtiUnitRange>
+                  </jgtiCuratorialUnit>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

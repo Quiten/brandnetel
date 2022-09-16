@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="53b690a5-1d43-4368-8ace-75dbad510e1c"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/wmbcqk</alternateIdentifier>
+        <alternateIdentifier>https://www.soroherbaria.org/portal/collections/misc/collprofiles.php?collid=123</alternateIdentifier>
+    <title>Colorado Mesa University, Walter A. Kelley Herbarium</title>
+    <creator>
+<organizationName>Southern Rocky Mountain Herbaria</organizationName><electronicMailAddress>james.r.allen@colorado.edu</electronicMailAddress><onlineUrl>https://www.soroherbaria.org/portal/index.php</onlineUrl>    </creator>
+    <metadataProvider>
+<organizationName>Southern Rocky Mountain Herbaria</organizationName><electronicMailAddress>james.r.allen@colorado.edu</electronicMailAddress><onlineUrl>https://www.soroherbaria.org/portal/index.php</onlineUrl>    </metadataProvider>
+    <associatedParty>
+    <individualName>
+          <surName>Stephen Stern</surName>
+    </individualName>
+<electronicMailAddress>sstern@coloradomesa.edu</electronicMailAddress>    <role>CONTENT_PROVIDER</role>
+    </associatedParty>
+      <pubDate>
+      2022-09-02
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>The Walter Almond Kelley herbarium at Colorado Mesa University contains over 5,000 specimens, primarily from western Colorado and eastern Utah. It was founded in 1978.</para>
+    </abstract>
+      <intellectualRights>
+        <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+      </intellectualRights>
+      <contact>
+<organizationName>Colorado Mesa University, Walter A. Kelley Herbarium</organizationName><phone>970-248-1674</phone><electronicMailAddress>sstern@coloradomesa.edu</electronicMailAddress>      </contact>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2022-09-05T14:31:37Z</dateStamp>
+      <citation>Colorado Mesa University (MESA) (2022). Colorado Mesa University, Walter A. Kelley Herbarium. Occurrence dataset https://doi.org/10.15468/wmbcqk accessed via GBIF.org on 2022-09-05.</citation>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

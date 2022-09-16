@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="49e223ed-ab24-478f-b5e8-4a15af5a8f6c"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/36qz6p</alternateIdentifier>
+        <alternateIdentifier>https://cch2.org/portal/collections/misc/collprofiles.php?collid=42</alternateIdentifier>
+        <alternateIdentifier>http://cch2.org/portal/collections/misc/collprofiles.php?collid=42</alternateIdentifier>
+        <alternateIdentifier>http://www.portal.capturingcaliforniasflowers.org/portal/collections/misc/collprofiles.php?collid=42</alternateIdentifier>
+    <title>CSLA - Cal State LA Herbarium</title>
+    <creator>
+<organizationName>CCH2 Portal</organizationName><electronicMailAddress>jyost@calpoly.edu</electronicMailAddress><onlineUrl>https://cch2.org/portal/index.php</onlineUrl>    </creator>
+    <metadataProvider>
+<organizationName>CCH2 Portal</organizationName><electronicMailAddress>jyost@calpoly.edu</electronicMailAddress><onlineUrl>https://cch2.org/portal/index.php</onlineUrl>    </metadataProvider>
+    <associatedParty>
+    <individualName>
+<givenName>Kirsten</givenName>          <surName>Fisher</surName>
+    </individualName>
+<positionName>Curator</positionName><electronicMailAddress>kfisher2@exchange.calstatela.edu</electronicMailAddress>    <role>CONTENT_PROVIDER</role>
+    </associatedParty>
+      <pubDate>
+      2022-09-01
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>The CSLA Herbarium holds approximately 35,000 dry-mounted vascular plant specimens from around the world, with particular collection emphasis in Southern California and Northern Mexico. Founded in 1956, CSLA contains significant collections from J. Henrickson, B. Prigge, and R. M. Straw.</para>
+    </abstract>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <contact>
+<organizationName>CSLA - Cal State LA Herbarium</organizationName><phone>(323)-343-2089</phone><electronicMailAddress>kfisher2@exchange.calstatela.edu</electronicMailAddress><onlineUrl>http://kfisher2@calstatela.edu</onlineUrl>      </contact>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2022-09-05T14:31:37Z</dateStamp>
+      <citation>CSU Los Angeles Herbarium (2022). CSLA - Cal State LA Herbarium. Occurrence dataset https://doi.org/10.15468/36qz6p accessed via GBIF.org on 2022-09-05.</citation>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

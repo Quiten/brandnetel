@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="8fc84858-fd52-498a-b035-4a160bc8be1f"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/5nret6</alternateIdentifier>
+        <alternateIdentifier>8fc84858-fd52-498a-b035-4a160bc8be1f</alternateIdentifier>
+        <alternateIdentifier>https://depo.msu.ru/ipt/resource?r=tulgu</alternateIdentifier>
+    <title>TULGU Herbarium: Tula Oblast collections of vascular plants</title>
+    <creator>
+    <individualName>
+<givenName>Elena</givenName>          <surName>Volkova</surName>
+    </individualName>
+<organizationName>Tula State University</organizationName><positionName>Head of Biology Department</positionName>    <address>
+<deliveryPoint>pr. Lenina, 92</deliveryPoint><city>Tula</city><postalCode>300012</postalCode><country>RUSSIAN_FEDERATION</country>    </address>
+<electronicMailAddress>convallaria@mail.ru</electronicMailAddress>      <userId directory="http://orcid.org/">0000-0001-5496-8728</userId>
+    </creator>
+    <creator>
+    <individualName>
+<givenName>Alexey</givenName>          <surName>Seregin</surName>
+    </individualName>
+<organizationName>Lomonosov Moscow State University</organizationName><positionName>Dr. Sci.</positionName>    <address>
+<deliveryPoint>Leninskie Gory 1</deliveryPoint><city>Moscow</city><postalCode>119234</postalCode><country>RUSSIAN_FEDERATION</country>    </address>
+<phone>+7 (926) 369-9935</phone><electronicMailAddress>botanik.seregin@gmail.com</electronicMailAddress><onlineUrl>https://istina.msu.ru/profile/Allium/</onlineUrl>      <userId directory="http://scholar.google.com/citations?user=">34fmTxcAAAAJ</userId>
+    </creator>
+    <metadataProvider>
+    <individualName>
+<givenName>Alexey</givenName>          <surName>Seregin</surName>
+    </individualName>
+<organizationName>Lomonosov Moscow State University</organizationName><positionName>Dr. Sci.</positionName>    <address>
+<deliveryPoint>Leninskie Gory 1</deliveryPoint><city>Moscow</city><postalCode>119234</postalCode><country>RUSSIAN_FEDERATION</country>    </address>
+<phone>+7 (926) 369-9935</phone><electronicMailAddress>botanik.seregin@gmail.com</electronicMailAddress><onlineUrl>https://istina.msu.ru/profile/Allium/</onlineUrl>      <userId directory="http://scholar.google.com/citations?user=">34fmTxcAAAAJ</userId>
+    </metadataProvider>
+    <associatedParty>
+    <individualName>
+<givenName>Alexey</givenName>          <surName>Seregin</surName>
+    </individualName>
+<organizationName>Lomonosov Moscow State University</organizationName><positionName>Dr. Sci.</positionName>    <address>
+<deliveryPoint>Leninskie Gory 1</deliveryPoint><city>Moscow</city><postalCode>119234</postalCode><country>RUSSIAN_FEDERATION</country>    </address>
+<phone>+7 (926) 369-9935</phone><electronicMailAddress>botanik.seregin@gmail.com</electronicMailAddress><onlineUrl>https://istina.msu.ru/profile/Allium/</onlineUrl>      <userId directory="http://scholar.google.com/citations?user=">34fmTxcAAAAJ</userId>
+    <role>EDITOR</role>
+    </associatedParty>
+      <pubDate>
+      2021-12-10
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>The imaging of the Herbarium of the Tula State University (TULGU) is going under the joint grant 19-44-710002 r_a &amp;#34;Assessment of the diversity and visualization of the flora of the Tula region using modern information technologies&amp;#34; (supervisor T.Yu. Svetasheva, TulSPU). Scans of this herbarium are available in the Moscow Digital Herbarium (https://plant.depo.msu.ru/) as a separate collection. According to the project, it is planned to digitize five Tula regional herbaria.</para>
+    </abstract>
+        <keywordSet>
+              <keyword>Occurrence</keyword>
+              <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>Specimen</keyword>
+              <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <coverage>
+            <geographicCoverage>
+                  <geographicDescription>Tula Oblast, Russia</geographicDescription>
+                  <boundingCoordinates>
+                      <westBoundingCoordinate>35.5</westBoundingCoordinate>
+                      <eastBoundingCoordinate>39</eastBoundingCoordinate>
+                      <northBoundingCoordinate>55</northBoundingCoordinate>
+                      <southBoundingCoordinate>53</southBoundingCoordinate>
+                  </boundingCoordinates>
+            </geographicCoverage>
+              <taxonomicCoverage>
+                    <taxonomicClassification>
+                          <taxonRankName>Phylum</taxonRankName>
+                        <taxonRankValue>Tracheophyta</taxonRankValue>
+                    </taxonomicClassification>
+              </taxonomicCoverage>
+      </coverage>
+      <maintenance>
+          <description>
+              <para></para>
+          </description>
+          <maintenanceUpdateFrequency>weekly</maintenanceUpdateFrequency>
+      </maintenance>
+      <contact>
+    <individualName>
+<givenName>Alexey</givenName>          <surName>Seregin</surName>
+    </individualName>
+<organizationName>Lomonosov Moscow State University</organizationName><positionName>Dr. Sci.</positionName>    <address>
+<deliveryPoint>Leninskie Gory 1</deliveryPoint><city>Moscow</city><postalCode>119234</postalCode><country>RUSSIAN_FEDERATION</country>    </address>
+<phone>+7 (926) 369-9935</phone><electronicMailAddress>botanik.seregin@gmail.com</electronicMailAddress><onlineUrl>https://istina.msu.ru/profile/Allium/</onlineUrl>      <userId directory="http://scholar.google.com/citations?user=">34fmTxcAAAAJ</userId>
+      </contact>
+      <methods>
+            <methodStep>
+                <description>
+                    <para></para>
+                </description>
+            </methodStep>
+      </methods>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2022-09-05T14:31:39Z</dateStamp>
+      <citation>Volkova E, Seregin A (2021). TULGU Herbarium: Tula Oblast collections of vascular plants. Version 1.1. Tula State university. Occurrence dataset https://doi.org/10.15468/5nret6 accessed via GBIF.org on 2022-09-05.</citation>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

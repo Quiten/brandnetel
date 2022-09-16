@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="835ac57e-f762-11e1-a439-00145eb45e9a"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/olfpjv</alternateIdentifier>
+        <alternateIdentifier>https://ipt.isa.ulisboa.pt/ipt_isa/resource?r=herbario_lisi</alternateIdentifier>
+        <alternateIdentifier>835ac57e-f762-11e1-a439-00145eb45e9a</alternateIdentifier>
+        <alternateIdentifier>253</alternateIdentifier>
+    <title>Herbário João de Carvalho e Vasconcellos, I.S.A./U.L.</title>
+    <creator>
+    <individualName>
+<givenName>Pedro</givenName>          <surName>Arsénio</surName>
+    </individualName>
+<organizationName>Instituto Superior de Agronomia, Universidade de Lisboa</organizationName><positionName>Curator</positionName>    <address>
+<deliveryPoint>Herbário, Tapada da Ajuda</deliveryPoint><city>Lisboa</city><postalCode>1349-017 Lisboa</postalCode><country>PORTUGAL</country>    </address>
+<electronicMailAddress>arseniop@isa.ulisboa.pt</electronicMailAddress>      <userId directory="http://orcid.org/">0000-0003-3860-9789</userId>
+    </creator>
+    <creator>
+    <individualName>
+<givenName>Ana Raquel</givenName>          <surName>Cunha</surName>
+    </individualName>
+<organizationName>Instituto Superior de Agronomia, Universidade de Lisboa</organizationName><positionName>Research Fellow - PORBIOTA project</positionName>    <address>
+<deliveryPoint>Herbário, Tapada da Ajuda</deliveryPoint><city>Lisboa</city><administrativeArea>Lisboa</administrativeArea><postalCode>1349-017 Lisboa</postalCode><country>PORTUGAL</country>    </address>
+<electronicMailAddress>arcunha@isa.ulisboa.pt</electronicMailAddress>      <userId directory="http://orcid.org/">0000-0002-0536-1628</userId>
+    </creator>
+    <creator>
+    <individualName>
+<givenName>Paula</givenName>          <surName>Paes</surName>
+    </individualName>
+<organizationName>Instituto Superior de Agronomia, Universidade de Lisboa</organizationName><positionName>Técnica de Herbário</positionName>    <address>
+<deliveryPoint>Herbário, Tapada da Ajuda</deliveryPoint><city>Lisboa</city><administrativeArea>Lisboa</administrativeArea><postalCode>1349-017 Lisboa</postalCode><country>PORTUGAL</country>    </address>
+<electronicMailAddress>appaes@isa.ulisboa.pt</electronicMailAddress>    </creator>
+    <creator>
+    <individualName>
+<givenName>Teresa</givenName>          <surName>Vasconcelos</surName>
+    </individualName>
+<organizationName>Instituto Superior de Agronomia, Universidade de Lisboa</organizationName><positionName>Técnica Superior</positionName>    <address>
+<deliveryPoint>Herbário, Tapada da Ajuda</deliveryPoint><city>Lisboa</city><country>PORTUGAL</country>    </address>
+    </creator>
+    <creator>
+    <individualName>
+<givenName>Rui</givenName>          <surName>Figueira</surName>
+    </individualName>
+<organizationName>Instituto Superior de Agronomia, Universidade de Lisboa</organizationName><positionName>Researcher</positionName>    <address>
+<deliveryPoint>Herbário, Tapada da Ajuda</deliveryPoint><city>Lisboa</city><postalCode>1349-017</postalCode><country>PORTUGAL</country>    </address>
+<phone>(+351) 213653165</phone><electronicMailAddress>ruifigueira@isa.ulisboa.pt</electronicMailAddress>      <userId directory="http://orcid.org/">0000-0002-8351-4028</userId>
+    </creator>
+    <metadataProvider>
+    <individualName>
+<givenName>Pedro</givenName>          <surName>Arsénio</surName>
+    </individualName>
+<organizationName>Instituto Superior de Agronomia, Universidade de Lisboa</organizationName><positionName>Curator</positionName>    <address>
+<deliveryPoint>Herbário, Tapada da Ajuda</deliveryPoint><city>Lisboa</city><postalCode>1349-017 Lisboa</postalCode><country>PORTUGAL</country>    </address>
+<electronicMailAddress>arseniop@isa.ulisboa.pt</electronicMailAddress>      <userId directory="http://orcid.org/">0000-0003-3860-9789</userId>
+    </metadataProvider>
+    <metadataProvider>
+    <individualName>
+<givenName>Ana Raquel</givenName>          <surName>Cunha</surName>
+    </individualName>
+<organizationName>Instituto Superior de Agronomia, Universidade de Lisboa</organizationName><positionName>Research Fellow - PORBIOTA project</positionName>    <address>
+<deliveryPoint>Herbário, Tapada da Ajuda</deliveryPoint><city>Lisboa</city><administrativeArea>Lisboa</administrativeArea><postalCode>1349-017 Lisboa</postalCode><country>PORTUGAL</country>    </address>
+<electronicMailAddress>arcunha@isa.ulisboa.pt</electronicMailAddress>      <userId directory="http://orcid.org/">0000-0002-0536-1628</userId>
+    </metadataProvider>
+    <metadataProvider>
+    <individualName>
+<givenName>Rui</givenName>          <surName>Figueira</surName>
+    </individualName>
+<organizationName>Instituto Superior de Agronomia, Universidade de Lisboa</organizationName><positionName>Researcher</positionName>    <address>
+<deliveryPoint>Herbário, Tapada da Ajuda</deliveryPoint><city>Lisboa</city><postalCode>1349-017 Lisboa</postalCode><country>PORTUGAL</country>    </address>
+<phone>(+351) 213653165</phone><electronicMailAddress>ruifigueira@isa.ulisboa.pt</electronicMailAddress>      <userId directory="http://orcid.org/">0000-0002-8351-4028</userId>
+    </metadataProvider>
+      <pubDate>
+      2021-01-11
+      </pubDate>
+    <language>PORTUGUESE</language>
+    <abstract>
+        <para>The Herbarium João de Carvalho e Vasconcellos (LISI) is a centenary Herbarium, founded in 1917, in the Instituto Superior de Agronomia (ISA), School of Agriculture, of the University of Lisbon (ULisboa). The LISI Herbarium houses more than 80.000 pressed and dried specimens, including  48 type specimens. It holds one of the largest collections of spontaneous vascular plants for mainland Portugal and Azores. The herbarium is in active growth, with about 900 new accessions per year, and is among the reference collections for the Flora Iberica project.</para>
+    </abstract>
+        <keywordSet>
+              <keyword>Occurrence</keyword>
+              <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>Specimen</keyword>
+              <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>Occurrence</keyword>
+              <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type_2015-07-10.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>herbarium</keyword>
+              <keyword>Espanha</keyword>
+              <keyword>Vascular plants</keyword>
+              <keyword>Portugal</keyword>
+              <keyword>Spain</keyword>
+              <keywordThesaurus>NA</keywordThesaurus>
+        </keywordSet>
+      <additionalInfo>
+          <para>Home page of the collection: https://www.isa.ulisboa.pt/drat/herbario/apresentacao</para>
+      </additionalInfo>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <coverage>
+            <geographicCoverage>
+                  <geographicDescription>Iberian Peninsula</geographicDescription>
+                  <boundingCoordinates>
+                      <westBoundingCoordinate>-10.283</westBoundingCoordinate>
+                      <eastBoundingCoordinate>3.428</eastBoundingCoordinate>
+                      <northBoundingCoordinate>43.929</northBoundingCoordinate>
+                      <southBoundingCoordinate>35.996</southBoundingCoordinate>
+                  </boundingCoordinates>
+            </geographicCoverage>
+          <temporalCoverage>
+            <rangeOfDates>
+              <beginDate>
+                <calendarDate>      1857
+</calendarDate>
+              </beginDate>
+              <endDate>
+                <calendarDate>      2019
+</calendarDate>
+              </endDate>
+            </rangeOfDates>
+          </temporalCoverage>
+              <taxonomicCoverage>
+                    <generalTaxonomicCoverage>Vascular plants</generalTaxonomicCoverage>
+                    <taxonomicClassification>
+                          <taxonRankName>Kingdom</taxonRankName>
+                        <taxonRankValue>Plantae</taxonRankValue>
+                          <commonName>Plants</commonName>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Phylum</taxonRankName>
+                        <taxonRankValue>Tracheophyta</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Equisetopsida</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Gnetopsida</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Liliopsida</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Lycopodiopsida</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Magnoliopsida</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Pinopsida</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Polypodiopsida</taxonRankValue>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                          <taxonRankName>Class</taxonRankName>
+                        <taxonRankValue>Psilopsida</taxonRankValue>
+                    </taxonomicClassification>
+              </taxonomicCoverage>
+      </coverage>
+      <maintenance>
+          <description>
+              <para></para>
+          </description>
+          <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+      </maintenance>
+      <contact>
+    <individualName>
+<givenName>Pedro</givenName>          <surName>Arsénio</surName>
+    </individualName>
+<organizationName>Instituto Superior de Agronomia, Universidade de Lisboa</organizationName><positionName>Curator</positionName>    <address>
+<deliveryPoint>Herbário, Tapada da Ajuda</deliveryPoint><city>Lisboa</city><postalCode>1349-017 Lisboa</postalCode><country>PORTUGAL</country>    </address>
+<electronicMailAddress>arseniop@isa.ulisboa.pt</electronicMailAddress>      <userId directory="http://orcid.org/">0000-0003-3860-9789</userId>
+      </contact>
+      <methods>
+            <methodStep>
+                <description>
+                    <para>Databasing
+The collection database is managed using Specify 6. The following steps were performed until the current situation:
+Pre-processing data: data gathered from an Access database was exported to an excel file and imported to OpenRefine. Extensive data revision was performed in the datatable, for consistency checks, standardisation of names, duplicates, namely on the catalog number, outlier identification and correction. When required, paper files and other documents were used to cross-check corrections. Fields verified include
+taxonomy fields - references include IPNI, Flora Iberica and Brummitt and Powell (1992) for species authorship names. Tools and resources include GBIF’s Species Matching and Names Parser;
+geographic administrative units - standardised and completed following the oficial administrative limits of Portugal (CAOP 2013) and Spain (BDLJE);
+dates: format checking
+people names (collectords, determiners) - homogenisation and consistency checks
+The corrections and updates were performed in a copy of the original table, but no versioning was made of the individual field changes.
+Import to Specify: Data was inserted into the Specify database using the import tool Specify Workbench. Data quality checks were performed following this import process.
+Post-processing of specimens’ data: Along with the specimen digitization (see next step), data was reviewed/confirmed and updated/completed when necessary.</para>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <para>Specimen imaging
+The process of specimen digitization is ongoing. 
+Preparation of specimens: Before taking the image, specimens are checked for conservation condition and cleaned when necessary. New data matrix tags are placed in the herbarium sheet.
+Image acquisition: Images are taken using a planetary scanner I2S eScan Open System, and LIMB Capture software. Default image resolution is 400 dpi, and converted to TIFF format without compression. The filename is based on the catalog number, using a letter suffix if more than one image was created for the same specimen. Metadata of the image uses a predefined template including the name of the operator and license. A scale ruler and a photography colour scale ColorGauge Nano Target is placed in the image frame before acquisition.
+Image storage: Images were stored in a storage server and in an external NAS. Later on, imagens were attached to Specify’s record using the attachment tool in the software.</para>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <para>Two manuals were prepared to support current and future cataloguing and digitisation activities:
+Manual de Digitalização (Digitization Manual, in Portuguese)
+LISI Herbarium Digitization Workflow</para>
+                </description>
+            </methodStep>
+            <sampling>
+                <studyExtent>
+                    <description>
+                        <para>The digitisation project covers all of the LISI collection, whose geographic representativeness includes the Iberian Peninsula (Portugal and Spain), the Azores and Madeira regions. A smaller part of the collection includes specimens from other countries.</para>
+                    </description>
+                </studyExtent>
+                <samplingDescription>
+                    <para>Specimen sampling follows usual practices for collection, preparation and mounting in herbarium sheets.</para>
+                </samplingDescription>
+            </sampling>
+            <qualityControl>
+                <description>
+                    <para>The following quality control steps were applied to the preparation of this dataset:
+(1) Data Quality Control: This dataset follows the best practices recommended by GBIF for specimen data quality (Chapman 2005a, 2005b) and georeferencing (Chapman and Wieczorek, 2006). Data on geography, people’s names (collectors, determiners) and taxonomy were reviewed for consistency and standardization using OpenRefine. Resources used include the GBIF’s Name Parser and Species Matching, and geographic gazetteers like Geonames, Geolocate and OpenStreetmap.
+(2) Digitisation Quality Control: The following procedures were performed for all images: (a) check the presence of the image Metadata; (b) verification of the presence of the data matrix label with the new catalog number; (c) check if collecting information and determinations tags are always visible in the images; (d) check the image quality (using autofocus whenever necessary; checking the quality every 10 images); (e) verification the correct association of the specimen image to the Specify record.</para>
+                </description>
+            </qualityControl>
+      </methods>
+
+      <project >
+          <title>Digital cataloguing and imaging of the Herbarium João de Carvalho e Vasconcellos (LISI)</title>
+          <personnel>
+    <individualName>
+<givenName>Pedro</givenName>          <surName>Arsénio</surName>
+    </individualName>
+      <userId directory="http://orcid.org/">0000-0003-3860-9789</userId>
+    <role>CURATOR</role>
+          </personnel>
+          <personnel>
+    <individualName>
+<givenName>Rui</givenName>          <surName>Figueira</surName>
+    </individualName>
+      <userId directory="http://orcid.org/">0000-0002-8351-4028</userId>
+    <role>PROGRAMMER</role>
+          </personnel>
+          <personnel>
+    <individualName>
+<givenName>Ana Raquel</givenName>          <surName>Cunha</surName>
+    </individualName>
+      <userId directory="http://orcid.org/">0000-0002-0536-1628</userId>
+    <role>PROCESSOR</role>
+          </personnel>
+          <abstract>
+              <para>This project is an initiative by the Instituto Superior de Agronomia of the Universidade de Lisboa to promote the specimen digital cataloguing and imaging of the herbarium. The project has been carried out in several phases, using different sources of funding. Currently, the following operations are being carried out:
+- assignment of new catalog numbers and barcodes
+- data review for consistency checks, completeness and updates
+- digitization of specimens</para>
+          </abstract>
+          <funding>
+              <para>This project was supported by several funding initiatives including:
+project PORBIOTA – Portuguese E- Infrastructure for Information and Research on Biodiversity – 22127, with reference PINFRA/22127/2016 POCI-01-0145-FEDER-022127, supported by national funds by FCT / MCTES and co-supported by Fundo Europeu de Desenvolvimento Regional (FEDER) throughout COMPETE 2020 – Programa Operacional Competitividade e Internacionalização (POCI-01-0145-FEDER-022127).</para>
+          </funding>
+            <studyAreaDescription>
+                <descriptor name="generic" citableClassificationSystem="false">
+                    <descriptorValue>The digitisation project covers all of the LISI collection, whose geographic representativeness includes the Iberian Peninsula (Portugal and Spain mainland), the Azores and Madeira regions. A smaller part of the collection includes specimens from other countries.</descriptorValue>
+                </descriptor>
+            </studyAreaDescription>
+            <designDescription>
+                <description>
+                    <para>Two main activities were carried out in the project:
+- Digital cataloguing of the herbarium specimens. This activity was performed in different phases and projects. Finally, during the PORBIOTA project, the database was reviewed and imported to Specify 6. 
+- Digitization of herbarium specimens: This ongoing activity will provide the digitisation of the full herbarium collection. Digitisation is performed with a planetary scanner I2S eScan Open System.</para>
+                </description>
+            </designDescription>
+      </project>
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2022-09-05T14:31:41Z</dateStamp>
+      <citation identifier="https://doi.org/10.15468/olfpjv">Arsénio P, Cunha A R, Paes P, Vasconcelos T, Figueira R (2021). Herbário João de Carvalho e Vasconcellos, I.S.A./U.L.. Instituto Superior de Agronomia / Universidade de Lisboa. Occurrence dataset https://doi.org/10.15468/olfpjv accessed via GBIF.org on 2022-09-05.</citation>
+              <bibliography>
+      <citation identifier="https://doi.org/10.15468/doc.jrgg-a190">Chapman AD (2005) Principles of Data Quality. Global Biodiversity Information Facility</citation>
+      <citation>Chapman, A. D. 2005. Principles and Methods of Data Cleaning: Primary Species and Species-Occurrence Data, version 1.0. Report for the Global Biodiversity Information Facility, Copenhagen. Available online at http://www.gbif.org/document/80528.</citation>
+      <citation identifier="https://doi.org/10.15468/doc-2zpf-zf42">Chapman AD &amp; J Wieczorek, eds. (2006) Guide to Best Practices for Georeferencing. Copenhagen: GBIF Secretariat</citation>
+      <citation>BRUMMITT, R. K. and POWELL, C. E. (editors) (1992). Authors of plant names. A list of authors of scientific names of plants, with recommended standard form of their names including abbreviations. Royal Botanic Gardens, Kew</citation>
+      <citation>CAOP 2013 - Carta Administrativa Oficial de Portugal, Direção Geral do Território.</citation>
+      <citation>Divisiones Administrativas de España (BDLJE)</citation>
+              </bibliography>
+              <resourceLogoUrl>http://www.isa.ulisboa.pt/files/logo_green.png</resourceLogoUrl>
+              <collection>
+                <parentCollectionIdentifier></parentCollectionIdentifier>
+                <collectionIdentifier></collectionIdentifier>
+                <collectionName>Herbário de Plantas Vasculares - Península Ibérica</collectionName>
+              </collection>
+                <specimenPreservationMethod>DRIED_AND_PRESSED</specimenPreservationMethod>
+                  <jgtiCuratorialUnit>
+                      <jgtiUnitType>herbarium sheets</jgtiUnitType>
+                      <jgtiUnitRange>
+                          <beginRange>1</beginRange>
+                          <endRange>80,000</endRange>
+                      </jgtiUnitRange>
+                  </jgtiCuratorialUnit>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

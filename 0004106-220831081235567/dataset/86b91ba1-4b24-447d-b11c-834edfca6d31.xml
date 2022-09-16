@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="86b91ba1-4b24-447d-b11c-834edfca6d31"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/yagaln</alternateIdentifier>
+        <alternateIdentifier>86b91ba1-4b24-447d-b11c-834edfca6d31</alternateIdentifier>
+        <alternateIdentifier>a78622d9-a259-43ce-a99a-b9e73a3ffc0d</alternateIdentifier>
+        <alternateIdentifier>https://ipt.recolnat.org/resource?r=erecolnat_lyjb</alternateIdentifier>
+    <title>Jardin Botanique de Lyon</title>
+    <creator>
+    <individualName>
+<givenName>Frédéric</givenName>          <surName>Danet</surName>
+    </individualName>
+<organizationName>Jardin botanique de Lyon</organizationName>    <address>
+<deliveryPoint>Direction des Espaces Verts, Mairie de Lyon</deliveryPoint><city>Lyon cedex 01</city><postalCode>69205</postalCode><country>FRANCE</country>    </address>
+<phone>04.72.82.35.14</phone><electronicMailAddress>frederic.danet@mairie-lyon.fr</electronicMailAddress>    </creator>
+    <creator>
+    <individualName>
+          <surName>recolnat</surName>
+    </individualName>
+<organizationName>recolnat</organizationName>    </creator>
+    <metadataProvider>
+    <individualName>
+<givenName>Frédéric</givenName>          <surName>Danet</surName>
+    </individualName>
+<organizationName>Jardin botanique de Lyon</organizationName>    <address>
+<deliveryPoint>Direction des Espaces Verts, Mairie de Lyon</deliveryPoint><city>Lyon cedex 01</city><postalCode>69205</postalCode><country>FRANCE</country>    </address>
+<phone>04.72.82.35.14</phone><electronicMailAddress>frederic.danet@mairie-lyon.fr</electronicMailAddress>    </metadataProvider>
+    <associatedParty>
+    <individualName>
+<givenName>Frédéric</givenName>          <surName>Danet</surName>
+    </individualName>
+<organizationName>Jardin botanique de Lyon</organizationName>    <address>
+<deliveryPoint>Direction des Espaces Verts, Mairie de Lyon</deliveryPoint><city>Lyon cedex 01</city><postalCode>69205</postalCode><country>FRANCE</country>    </address>
+<phone>04.72.82.35.14</phone><electronicMailAddress>frederic.danet@mairie-lyon.fr</electronicMailAddress>    <role>USER</role>
+    </associatedParty>
+      <pubDate>
+      2021-12-07
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>Le Jardin botanique de Lyon (LYJB) conserve 57 herbiers, réunissant 300 000  à 350 000 parts. Les échantillons ont été collectés du XVIIe siècle à nos jours, principalement dans la région lyonnaise mais aussi dans des contrées lointaines, par des botanistes et personnalités célèbres tels que Philibert Commerson, Joseph Dombey, Alexis Jordan, Jean-Jacques Rousseau. En 2001, 90 % des spécimens et leurs étiquettes étaient encore libres dans des chemises. Afin de les rendre accessibles à la communauté scientifique, les échantillons des XIXe et XXe siècles sont progressivement fixés sur du papier de conservation, consignés dans une base de données et numérisés. Afin de faciliter l’exploitation de ces masses de données inaccessibles jusque-là et donc permettre d’accélérer l’inventaire de la biodiversité mondiale, le Jardin botanique participe au projet e-ReColNat. Plusieurs herbiers candidats du Jardin botanique de Lyon ont été retenus par l’infrastructure e-ReColNat pour l’attachage et la numérisation. L’infrastructure e-ReColNat a attaché et numérisé plus de 24 000 planches de la collection Becker et  plus de 11 000 planches de la collection Schönen. Parmi les collections déjà attachées, l’infrastructure e-ReColNat a numérisé environ 3 000 planches dans les collections Sagot, Franc,  Queney,  Reverchon et l’herbier dit de Bakou. Au total, près de 36 000 planches ont ainsi été attachées et près de 42 000 images des collections LYJB sont visibles sur la plateforme nationale, soit environ 13 % de la collection d’herbiers du Jardin botanique de Lyon.</para>
+    </abstract>
+        <keywordSet>
+              <keyword>occurrences</keyword>
+              <keyword>botanique</keyword>
+              <keyword>musées</keyword>
+              <keyword>RECOLNAT
+
+Natural history museums</keyword>
+              <keyword>réseau national des collections naturalistes</keyword>
+              <keyword>naturalist collections</keyword>
+              <keyword>géologie</keyword>
+              <keyword>botany</keyword>
+              <keyword>figured</keyword>
+              <keyword>onymophoronts</keyword>
+              <keyword>taxonomy</keyword>
+              <keyword>palaeontology</keyword>
+              <keyword>geology</keyword>
+              <keyword>data curation</keyword>
+              <keyword>ecology</keyword>
+              <keyword>museums</keyword>
+              <keyword>universities</keyword>
+              <keyword>RECOLNAT</keyword>
+              <keyword>collections</keyword>
+              <keyword>spécimens</keyword>
+              <keyword>biogéographie</keyword>
+              <keyword>numérisation</keyword>
+              <keyword>paléontologie</keyword>
+              <keyword>universités</keyword>
+              <keyword>écologie</keyword>
+              <keyword>types</keyword>
+              <keyword>mycologie</keyword>
+              <keyword>biodiversity</keyword>
+              <keyword>collecteurs</keyword>
+              <keyword>taxinomie</keyword>
+              <keyword>biogeography</keyword>
+              <keyword>naturalists</keyword>
+              <keyword>specimens</keyword>
+              <keyword>collections naturalistes</keyword>
+              <keyword>French National Network of Naturalist Collections</keyword>
+              <keyword>figuré</keyword>
+              <keyword>digitisation</keyword>
+              <keyword>Muséums d’histoire naturelle</keyword>
+              <keyword>onymophorontes</keyword>
+              <keyword>biodiversité</keyword>
+              <keyword>collectors</keyword>
+              <keyword>zoologie</keyword>
+              <keyword>naturalistes</keyword>
+              <keyword>informatisation</keyword>
+              <keyword>mycology</keyword>
+              <keyword>zoology</keyword>
+              <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type_2015-07-10.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>occurrences</keyword>
+              <keyword>botanique</keyword>
+              <keyword>musées</keyword>
+              <keyword>RECOLNAT
+
+Natural history museums</keyword>
+              <keyword>réseau national des collections naturalistes</keyword>
+              <keyword>naturalist collections</keyword>
+              <keyword>géologie</keyword>
+              <keyword>botany</keyword>
+              <keyword>figured</keyword>
+              <keyword>onymophoronts</keyword>
+              <keyword>taxonomy</keyword>
+              <keyword>palaeontology</keyword>
+              <keyword>geology</keyword>
+              <keyword>data curation</keyword>
+              <keyword>ecology</keyword>
+              <keyword>museums</keyword>
+              <keyword>universities</keyword>
+              <keyword>RECOLNAT</keyword>
+              <keyword>collections</keyword>
+              <keyword>spécimens</keyword>
+              <keyword>biogéographie</keyword>
+              <keyword>numérisation</keyword>
+              <keyword>paléontologie</keyword>
+              <keyword>universités</keyword>
+              <keyword>écologie</keyword>
+              <keyword>types</keyword>
+              <keyword>mycologie</keyword>
+              <keyword>biodiversity</keyword>
+              <keyword>collecteurs</keyword>
+              <keyword>taxinomie</keyword>
+              <keyword>biogeography</keyword>
+              <keyword>naturalists</keyword>
+              <keyword>specimens</keyword>
+              <keyword>collections naturalistes</keyword>
+              <keyword>French National Network of Naturalist Collections</keyword>
+              <keyword>figuré</keyword>
+              <keyword>digitisation</keyword>
+              <keyword>Muséums d’histoire naturelle</keyword>
+              <keyword>onymophorontes</keyword>
+              <keyword>biodiversité</keyword>
+              <keyword>collectors</keyword>
+              <keyword>zoologie</keyword>
+              <keyword>naturalistes</keyword>
+              <keyword>informatisation</keyword>
+              <keyword>mycology</keyword>
+              <keyword>zoology</keyword>
+              <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <distribution scope="document">
+          <online>
+              <url function="information">http://www.jardin-botanique-lyon.com/jbot/sections/fr/science_au_jardin_botanique/recherche_au_jardin_botanique/herbiers/index/</url>
+          </online>
+      </distribution>
+      <coverage>
+            <geographicCoverage>
+                  <geographicDescription>Global coverage</geographicDescription>
+                  <boundingCoordinates>
+                      <westBoundingCoordinate>-180</westBoundingCoordinate>
+                      <eastBoundingCoordinate>180</eastBoundingCoordinate>
+                      <northBoundingCoordinate>90</northBoundingCoordinate>
+                      <southBoundingCoordinate>-90</southBoundingCoordinate>
+                  </boundingCoordinates>
+            </geographicCoverage>
+      </coverage>
+      <maintenance>
+          <description>
+              <para></para>
+          </description>
+          <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+      </maintenance>
+      <contact>
+    <individualName>
+<givenName>Frédéric</givenName>          <surName>Danet</surName>
+    </individualName>
+<organizationName>Jardin botanique de Lyon</organizationName>    <address>
+<deliveryPoint>Direction des Espaces Verts, Mairie de Lyon</deliveryPoint><city>Lyon cedex 01</city><postalCode>69205</postalCode><country>FRANCE</country>    </address>
+<phone>04.72.82.35.14</phone><electronicMailAddress>frederic.danet@mairie-lyon.fr</electronicMailAddress>      </contact>
+      <methods>
+            <methodStep>
+                <description>
+                    <para></para>
+                </description>
+            </methodStep>
+      </methods>
+
+      <project >
+          <title>Jardin Botanique de Lyon</title>
+          <personnel>
+    <individualName>
+<givenName>Frédéric</givenName>          <surName>Danet</surName>
+    </individualName>
+    <role>ADMINISTRATIVE_POINT_OF_CONTACT</role>
+          </personnel>
+          <abstract>
+              <para></para>
+          </abstract>
+          <funding>
+              <para></para>
+          </funding>
+      </project>
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2022-09-05T14:31:35Z</dateStamp>
+      <citation>Danet F, recolnat (2021). Jardin Botanique de Lyon. Version 1.5. RECOLNAT. Occurrence dataset https://doi.org/10.15468/yagaln accessed via GBIF.org on 2022-09-05.</citation>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="b22b10e7-86da-4b80-8f49-f3f958a2463d"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.5886/2fva5p4r</alternateIdentifier>
+        <alternateIdentifier>http://dx.doi.org/10.5886/2fva5p4r</alternateIdentifier>
+        <alternateIdentifier>https://data.canadensys.net/ipt/resource?r=win-vascular-specimens</alternateIdentifier>
+        <alternateIdentifier>http://data.canadensys.net/ipt/resource?r=win-vascular-specimens</alternateIdentifier>
+        <alternateIdentifier>http://data.canadensys.net/ipt/resource.do?r=win-vascular-specimens</alternateIdentifier>
+        <alternateIdentifier>b22b10e7-86da-4b80-8f49-f3f958a2463d</alternateIdentifier>
+        <alternateIdentifier>14337</alternateIdentifier>
+    <title>University of Manitoba Herbarium (WIN) - Vascular Plant Collection</title>
+    <creator>
+    <individualName>
+<givenName>Bruce</givenName>          <surName>Ford</surName>
+    </individualName>
+<organizationName>University of Manitoba</organizationName><positionName>Professor and Curator</positionName>    <address>
+<deliveryPoint>433 Buller building</deliveryPoint><city>Winnipeg</city><administrativeArea>Manitoba</administrativeArea><postalCode>R3T 2N2</postalCode><country>CANADA</country>    </address>
+<phone>1-204-474-6994</phone><electronicMailAddress>bruce.ford@umanitoba.ca</electronicMailAddress><onlineUrl>http://bruceford.weebly.com/</onlineUrl>    </creator>
+    <metadataProvider>
+    <individualName>
+<givenName>Bruce</givenName>          <surName>Ford</surName>
+    </individualName>
+<organizationName>University of Manitoba</organizationName><positionName>Professor and Curator</positionName>    <address>
+<deliveryPoint>433 Buller building</deliveryPoint><city>Winnipeg</city><administrativeArea>Manitoba</administrativeArea><postalCode>R3T 2N2</postalCode><country>CANADA</country>    </address>
+<phone>1-204-474-6994</phone><electronicMailAddress>bruce.ford@umanitoba.ca</electronicMailAddress><onlineUrl>http://bruceford.weebly.com/</onlineUrl>    </metadataProvider>
+    <associatedParty>
+    <individualName>
+<givenName>Diana</givenName>          <surName>Sawatzky</surName>
+    </individualName>
+<organizationName>University of Manitoba</organizationName><positionName>Assistant Curator</positionName>    <address>
+<deliveryPoint>426 Buller Building</deliveryPoint><city>Winnipeg</city><administrativeArea>Manitoba</administrativeArea><postalCode>R3T 2N2</postalCode><country>CANADA</country>    </address>
+<phone>1-204-474-9208</phone><electronicMailAddress>Diana.Sawatzky@umanitoba.ca</electronicMailAddress><onlineUrl>http://winherbarium.weebly.com/</onlineUrl>    <role>CONTENT_PROVIDER</role>
+    </associatedParty>
+    <associatedParty>
+<organizationName>University of Manitoba</organizationName>    <address>
+<deliveryPoint>66 Chancellors Circle</deliveryPoint><city>Winnipeg</city><administrativeArea>Manitoba</administrativeArea><postalCode>R3T 2N2</postalCode><country>CANADA</country>    </address>
+    <role>PUBLISHER</role>
+    </associatedParty>
+      <pubDate>
+      2021-08-25
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>Founded in 1907, the Herbarium of the Department of Biological Sciences (WIN) houses the most extensive and broadly representative collection of plants in Manitoba, approximately 85,000 vascular plants. There is also a reference seed collection. Many of the specimens represent vouchers for various floristic, environmental, and ecological studies carried out by present and former members of the Department and the broader scientific community. The collections have played an important role in the development of such publications as Budd’s Flora of the Canadian Prairie Provinces and Scoggan’s Flora of Manitoba and Flora of Canada. They also provide an important reference source for floristic and vegetation studies within the province. Most recently the collections have been used as a source of genetic material for a number of molecular phylogenetic studies, especially those on the systematics of Carex for documenting the distribution and ecology of Manitoba’s rare and endangered plants species, and for providing distributional and taxonomic information for the Flora of North America Project. This dataset represents the digitized vascular plant specimens collected in Manitoba.</para>
+    </abstract>
+        <keywordSet>
+              <keyword>Canada</keyword>
+              <keyword>herbarium</keyword>
+              <keyword>Manitoba</keyword>
+              <keyword>vascular plants</keyword>
+              <keyword>University of Manitoba</keyword>
+              <keyword>specimens</keyword>
+              <keyword>collection</keyword>
+              <keyword>WIN</keyword>
+              <keyword>Canadensys</keyword>
+              <keyword>University of Manitoba Herbarium</keyword>
+              <keywordThesaurus>n/a</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>Occurrence</keyword>
+              <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>Specimen</keyword>
+              <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+      <intellectualRights>
+        <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+      </intellectualRights>
+      <distribution scope="document">
+          <online>
+              <url function="information">http://winherbarium.weebly.com</url>
+          </online>
+      </distribution>
+      <coverage>
+            <geographicCoverage>
+                  <geographicDescription>The dataset represents vascular plant specimens collected in Manitoba.</geographicDescription>
+                  <boundingCoordinates>
+                      <westBoundingCoordinate>-102</westBoundingCoordinate>
+                      <eastBoundingCoordinate>-88.81</eastBoundingCoordinate>
+                      <northBoundingCoordinate>60.02</northBoundingCoordinate>
+                      <southBoundingCoordinate>48.99</southBoundingCoordinate>
+                  </boundingCoordinates>
+            </geographicCoverage>
+              <taxonomicCoverage>
+                    <generalTaxonomicCoverage>The dataset represents vascular plant specimens collected in Manitoba.</generalTaxonomicCoverage>
+                    <taxonomicClassification>
+                          <taxonRankName>Kingdom</taxonRankName>
+                        <taxonRankValue>Plantae</taxonRankValue>
+                          <commonName>Plants</commonName>
+                    </taxonomicClassification>
+              </taxonomicCoverage>
+      </coverage>
+      <maintenance>
+          <description>
+              <para></para>
+          </description>
+          <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+      </maintenance>
+      <contact>
+    <individualName>
+<givenName>Bruce</givenName>          <surName>Ford</surName>
+    </individualName>
+<organizationName>University of Manitoba</organizationName><positionName>Professor and Curator</positionName>    <address>
+<deliveryPoint>433 Buller building</deliveryPoint><city>Winnipeg</city><administrativeArea>Manitoba</administrativeArea><postalCode>R3T 2N2</postalCode><country>CANADA</country>    </address>
+<phone>1-204-474-6994</phone><electronicMailAddress>bruce.ford@umanitoba.ca</electronicMailAddress><onlineUrl>http://bruceford.weebly.com/</onlineUrl>      </contact>
+      <methods>
+            <methodStep>
+                <description>
+                    <para></para>
+                </description>
+            </methodStep>
+      </methods>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2022-09-05T14:31:35Z</dateStamp>
+      <citation identifier="https://doi.org/10.5886/2fva5p4r">Ford B (2021). University of Manitoba Herbarium (WIN) - Vascular Plant Collection. Version 11.1. University of Manitoba. Occurrence dataset https://doi.org/10.5886/2fva5p4r accessed via GBIF.org on 2022-09-05.</citation>
+              <physical>
+                  <objectName>Canadensys explorer</objectName>
+                  <characterEncoding>UTF-8</characterEncoding>
+                  <dataFormat>
+                      <externallyDefinedFormat>
+                          <formatName>HTML</formatName>
+                      </externallyDefinedFormat>
+                  </dataFormat>
+                  <distribution>
+                      <online>
+                          <url function="download">https://data.canadensys.net/explorer/occurrences/search?q=data_resource_uid:dr17</url>
+                      </online>
+                  </distribution>
+              </physical>
+              <physical>
+                  <objectName>GBIF data portal</objectName>
+                  <characterEncoding>UTF-8</characterEncoding>
+                  <dataFormat>
+                      <externallyDefinedFormat>
+                          <formatName>HTML</formatName>
+                      </externallyDefinedFormat>
+                  </dataFormat>
+                  <distribution>
+                      <online>
+                          <url function="download">http://www.gbif.org/dataset/b22b10e7-86da-4b80-8f49-f3f958a2463d</url>
+                      </online>
+                  </distribution>
+              </physical>
+              <resourceLogoUrl>http://data.canadensys.net/ipt/logo.do?r=win-vascular-specimens</resourceLogoUrl>
+              <collection>
+                <parentCollectionIdentifier>WIN</parentCollectionIdentifier>
+                <collectionIdentifier>WIN</collectionIdentifier>
+                <collectionName>University of Manitoba Herbarium</collectionName>
+              </collection>
+              <formationPeriod>mid 1800s-present</formationPeriod>
+                <specimenPreservationMethod>MOUNTED</specimenPreservationMethod>
+                  <jgtiCuratorialUnit>
+                      <jgtiUnitType>Herbarium sheets/records</jgtiUnitType>
+                      <jgtiUnitRange>
+                          <beginRange>85,000</beginRange>
+                          <endRange>1,000</endRange>
+                      </jgtiUnitRange>
+                  </jgtiCuratorialUnit>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

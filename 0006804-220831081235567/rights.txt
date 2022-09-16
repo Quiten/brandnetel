@@ -1,0 +1,47 @@
+
+Dataset: ALA species sightings and OzAtlas
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Earth Guardians Weekly Feed
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: BoBO - Botanic Garden and Botanical Museum Berlin Observations
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Water Colours of Fungi by Konrad Schieferdecker at the Botanische Staatssammlung München
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: NMNH Extant Specimen Records (USNM, US)
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Collection contest
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: India Biodiversity Portal publication grade dataset
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Photographs of higher plants, mosses, fungi, lichens, and algae
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: "Flora of Russia" on iNaturalist: a trusted backlog
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Collections of Bioclass, school #179, Moscow
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Occurrence Data of Vascular Plants collected or compiled for the Flora of Bavaria
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Löydös Open Finnish Observation Database
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Biodiversity4all Research-Grade Observations
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Lajitietokeskus/FinBIF - Notebook, general observations
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Vascular plants in Danish coastal meadows
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Estonian Naturalists’ Society
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Images and observations of mostly edible plants in Stephen Barstow’s Edible Garden in Norway, taken between 2005 and 2014
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Artportalen (Swedish Species Observation System)
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Species recordings from the Danish National portal Arter.dk
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Norwegian Species Observation Service
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Pl@ntNet observations
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Observation.org, Nature data from around the World
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: iNaturalist Research-grade Observations
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode

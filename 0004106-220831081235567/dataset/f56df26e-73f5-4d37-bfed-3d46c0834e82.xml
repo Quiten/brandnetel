@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="f56df26e-73f5-4d37-bfed-3d46c0834e82"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/mypdjd</alternateIdentifier>
+        <alternateIdentifier>https://cch2.org/portal/collections/misc/collprofiles.php?collid=12</alternateIdentifier>
+        <alternateIdentifier>http://cch2.org/portal/collections/misc/collprofiles.php?collid=12</alternateIdentifier>
+    <title>OBI - Robert F. Hoover Herbarium, Cal Poly State University</title>
+    <creator>
+<organizationName>CCH2 Portal</organizationName><electronicMailAddress>jyost@calpoly.edu</electronicMailAddress><onlineUrl>https://cch2.org/portal/index.php</onlineUrl>    </creator>
+    <metadataProvider>
+<organizationName>CCH2 Portal</organizationName><electronicMailAddress>jyost@calpoly.edu</electronicMailAddress><onlineUrl>https://cch2.org/portal/index.php</onlineUrl>    </metadataProvider>
+    <associatedParty>
+    <individualName>
+<givenName>Jenn</givenName>          <surName>Yost</surName>
+    </individualName>
+<positionName>Director and Associate Professor</positionName><electronicMailAddress>jyost@calpoly.edu</electronicMailAddress>    <role>CONTENT_PROVIDER</role>
+    </associatedParty>
+    <associatedParty>
+    <individualName>
+<givenName>Katie</givenName>          <surName>Pearson</surName>
+    </individualName>
+<positionName>Curator</positionName><electronicMailAddress>kdpearso@calpoly.edu</electronicMailAddress>    <role>CONTENT_PROVIDER</role>
+    </associatedParty>
+      <pubDate>
+      2022-09-01
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>The Hoover Herbarium houses 85,000&amp;#43; specimens of vascular plants, algae, lichens, and bryophytes. The geographic focus is San Luis Obispo County, California. The collection also includes many specimens from other areas of California, other states of the US, particularly Arizona, and some from other regions of the world, especially Mexico. Emphasis areas in the collection include Asteraceae, Lupinus, and cultivated Eucalyptus. Major collections include Robert F. Hoover (1946–1969), David J. Keil (1966–present), Rhonda Riggins (1970s–2000), Tracy Call (mostly Apiaceae—late 1940s–1960s), and Robert J. Rodin (1940s–1977). The collection is used extensively in undergraduate teaching and training. Important Collections: Robert F. Hoover (1946–1969), David J. Keil (1966–present), Rhonda Riggins (1970s–2000), Tracy Call (mostly Apiaceae—late 1940s–1960s), and Robert J. Rodin (1940s–1977)</para>
+    </abstract>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <contact>
+<organizationName>OBI - Robert F. Hoover Herbarium, Cal Poly State University</organizationName><phone>(805) 756-5869</phone><electronicMailAddress>jyost@calpoly.edu</electronicMailAddress><onlineUrl>http://bio.calpoly.edu</onlineUrl>      </contact>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2022-09-05T14:31:39Z</dateStamp>
+      <citation>California Polytechnic State University, San Luis Obispo (2022). OBI - Robert F. Hoover Herbarium, Cal Poly State University. Occurrence dataset https://doi.org/10.15468/mypdjd accessed via GBIF.org on 2022-09-05.</citation>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="5d47cb09-3ef2-477d-a539-dd7f6955aefd"  system="http://gbif.org" scope="system"
+  xml:lang="en">
+
+<dataset>
+      <alternateIdentifier>10.15468/hiiw6b</alternateIdentifier>
+    <title>Herbarium GAT</title>
+    <associatedParty>
+    <individualName>
+          <surName>Markus Oppermann</surName>
+    </individualName>
+    <address>
+<deliveryPoint>Corrensstraße 3, 06466 Gatersleben</deliveryPoint>    </address>
+<phone>+49 (0)39482-5360</phone><electronicMailAddress>opperman@ipk-gatersleben.de</electronicMailAddress>    <role>TECHNICAL_POINT_OF_CONTACT</role>
+    </associatedParty>
+    <language>en</language>
+    <abstract>
+        <para>The Gatersleben Herbarium (GAT) of the IPK contains a representative 400,000 specimens&amp;#39; collection of cultivated plants and their wild relatives from extra-tropical regions. It is one of the largest of such special herbaria in the world and serves as an essential source of reference and working material for the reproduction of genebank accessions and various IPK research activities. Furthermore the Gatersleben Herbarium takes part in the international loan and exchange network of botanical collections and can be used by German and foreign specialists.</para>
+    </abstract>
+      <intellectualRights>
+        <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+      </intellectualRights>
+      <distribution scope="document">
+          <online>
+              <url function="information">http://www.ipk-gatersleben.de/en/gbisipk-gaterslebendegbis-i/herbarium/</url>
+          </online>
+      </distribution>
+      <contact>
+    <individualName>
+          <surName>Klaus Pistrick</surName>
+    </individualName>
+    <address>
+<deliveryPoint>Corrensstraße 3, 06466 Gatersleben</deliveryPoint>    </address>
+<phone>+49 (0)39482-5278</phone><electronicMailAddress>pistrick@ipk-gatersleben.de</electronicMailAddress>      </contact>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2022-09-05T14:31:37Z</dateStamp>
+      <citation>Leibniz Institute of Plant Genetics and Crop Plant Research (IPK). Herbarium GAT. Occurrence dataset https://doi.org/10.15468/hiiw6b accessed via GBIF.org on 2022-09-05.</citation>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>

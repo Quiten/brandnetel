@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+        packageId="50b92cdd-2622-40cf-b973-b3646f3a69fd"  system="http://gbif.org" scope="system"
+  xml:lang="fr">
+
+<dataset>
+      <alternateIdentifier>10.15468/dyynqt</alternateIdentifier>
+        <alternateIdentifier>https://ipt.recolnat.org/resource?r=aur</alternateIdentifier>
+        <alternateIdentifier>3dbb3d42-6ffc-477c-ae66-37280d8b1f09</alternateIdentifier>
+    <title>Muséum des Volcans</title>
+    <creator>
+    <individualName>
+<givenName>Emmanuelle</givenName>          <surName>Huet</surName>
+    </individualName>
+<organizationName>Muséum des Volcans</organizationName><positionName>Conservatrice</positionName>    <address>
+<deliveryPoint>Château Saint Etienne</deliveryPoint><city>Aurillac</city><postalCode>15000</postalCode><country>FRANCE</country>    </address>
+<phone>04/71/48/07/00</phone><electronicMailAddress>Emmanuelle.Huet@aurillac.fr</electronicMailAddress>    </creator>
+    <metadataProvider>
+    <individualName>
+<givenName>Marie-Pierre</givenName>          <surName>Hauquin</surName>
+    </individualName>
+<organizationName>Muséum des Volcans</organizationName><positionName>Chargée des collections botanique</positionName>    <address>
+<deliveryPoint>Château Saint Etienne</deliveryPoint><city>Aurillac</city><postalCode>15000</postalCode><country>FRANCE</country>    </address>
+<phone>04/71/48/07/00</phone><electronicMailAddress>marie-pierre.hauquin@aurillac.fr</electronicMailAddress>    </metadataProvider>
+      <pubDate>
+      2022-01-07
+      </pubDate>
+    <language>ENGLISH</language>
+    <abstract>
+        <para>Le Muséum des volcans d&amp;#39;Aurillac, installé dans une aile du château Saint-Etienne, abrite des collections géologiques (paléobotanique, roches volcaniques, minerais locaux, faune locale de mammifères fossiles, minéraux régionaux et nationaux, ...), zoologiques et botaniques.
+Comptant une quinzaine d&amp;#39;herbiers datant du XIXème siècle et de la première moitié du XXème siècle, le Muséum des volcans possède notamment l&amp;#39;herbier d&amp;#39;Eugène Jordan de Puyfol (1827 -1891).
+Eugène Jordan de Puyfol (1827-1891) né à Dôle dans le Jura se passionna dès l&amp;#39;enfance pour la botanique. Il fut soutenu et conseillé dans ses recherches par un membre de sa famille, Alexis Jordan, qui le mit en relation avec de nombreux botanistes et collecteurs. C&amp;#39;est ainsi qu&amp;#39;il put se créer une riche collection de plantes. Parallèlement, il herborisa lui-même dans le Jura ainsi que dans le Lyonnais et dans le Massif Central, notamment dans le Cantal. Il s&amp;#39;installa en effet après son mariage à Raulhac dans la propriété familiale de Courbelimagne. Il exerça le métier de juge de paix à Mur-de-Barrez dans l&amp;#39;Aveyron et sera maire de Raulhac.
+Cet herbier comptant près de 14 000 planches est soigneusement classé dans 100 presses. Chaque planche est minutieusement renseignée : localisation précise, altitude et type de terrain.
+L&amp;#39;abbé Coste, après la mort d&amp;#39;Eugène Jordan de Puyfol, et à la demande de la fille de celui-ci, en a effectué le classement précis. 
+
+Un autre herbier commandé à Eugène Jordan de Puyfol par Jean-Baptiste Rames (1832-1894), est également conservé à Aurillac. Il s&amp;#39;agit d&amp;#39;un herbier de taille beaucoup plus modeste - 986 planches - consacré à la flore régionale. Constitué entre 1850 et 1872, il est dans un état de conservation remarquable. Jean-Baptiste Rames, pharmacien, géologue, et auteur des premières théories sur la formation du volcan cantalien, avait souhaité, par la possession de cet herbier, se constituer une collection de référence. 
+
+Les herbiers sont consultables au Muséum des volcans.</para>
+    </abstract>
+        <keywordSet>
+              <keyword>occurrences</keyword>
+              <keyword>botanique</keyword>
+              <keyword>musées</keyword>
+              <keyword>RECOLNAT
+
+Natural history museums</keyword>
+              <keyword>réseau national des collections naturalistes</keyword>
+              <keyword>naturalist collections</keyword>
+              <keyword>géologie</keyword>
+              <keyword>botany</keyword>
+              <keyword>figured</keyword>
+              <keyword>onymophoronts</keyword>
+              <keyword>taxonomy</keyword>
+              <keyword>palaeontology</keyword>
+              <keyword>geology</keyword>
+              <keyword>data curation</keyword>
+              <keyword>ecology</keyword>
+              <keyword>museums</keyword>
+              <keyword>universities</keyword>
+              <keyword>RECOLNAT</keyword>
+              <keyword>collections</keyword>
+              <keyword>spécimens</keyword>
+              <keyword>biogéographie</keyword>
+              <keyword>numérisation</keyword>
+              <keyword>paléontologie</keyword>
+              <keyword>universités</keyword>
+              <keyword>écologie</keyword>
+              <keyword>types</keyword>
+              <keyword>mycologie</keyword>
+              <keyword>biodiversity</keyword>
+              <keyword>collecteurs</keyword>
+              <keyword>taxinomie</keyword>
+              <keyword>biogeography</keyword>
+              <keyword>naturalists</keyword>
+              <keyword>specimens</keyword>
+              <keyword>collections naturalistes</keyword>
+              <keyword>French National Network of Naturalist Collections</keyword>
+              <keyword>figuré</keyword>
+              <keyword>digitisation</keyword>
+              <keyword>Muséums d’histoire naturelle</keyword>
+              <keyword>onymophorontes</keyword>
+              <keyword>biodiversité</keyword>
+              <keyword>collectors</keyword>
+              <keyword>zoologie</keyword>
+              <keyword>naturalistes</keyword>
+              <keyword>informatisation</keyword>
+              <keyword>mycology</keyword>
+              <keyword>zoology</keyword>
+              <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type_2015-07-10.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+              <keyword>occurrences</keyword>
+              <keyword>botanique</keyword>
+              <keyword>musées</keyword>
+              <keyword>RECOLNAT
+
+Natural history museums</keyword>
+              <keyword>réseau national des collections naturalistes</keyword>
+              <keyword>naturalist collections</keyword>
+              <keyword>géologie</keyword>
+              <keyword>botany</keyword>
+              <keyword>figured</keyword>
+              <keyword>onymophoronts</keyword>
+              <keyword>taxonomy</keyword>
+              <keyword>palaeontology</keyword>
+              <keyword>geology</keyword>
+              <keyword>data curation</keyword>
+              <keyword>ecology</keyword>
+              <keyword>museums</keyword>
+              <keyword>universities</keyword>
+              <keyword>RECOLNAT</keyword>
+              <keyword>collections</keyword>
+              <keyword>spécimens</keyword>
+              <keyword>biogéographie</keyword>
+              <keyword>numérisation</keyword>
+              <keyword>paléontologie</keyword>
+              <keyword>universités</keyword>
+              <keyword>écologie</keyword>
+              <keyword>types</keyword>
+              <keyword>mycologie</keyword>
+              <keyword>biodiversity</keyword>
+              <keyword>collecteurs</keyword>
+              <keyword>taxinomie</keyword>
+              <keyword>biogeography</keyword>
+              <keyword>naturalists</keyword>
+              <keyword>specimens</keyword>
+              <keyword>collections naturalistes</keyword>
+              <keyword>French National Network of Naturalist Collections</keyword>
+              <keyword>figuré</keyword>
+              <keyword>digitisation</keyword>
+              <keyword>Muséums d’histoire naturelle</keyword>
+              <keyword>onymophorontes</keyword>
+              <keyword>biodiversité</keyword>
+              <keyword>collectors</keyword>
+              <keyword>zoologie</keyword>
+              <keyword>naturalistes</keyword>
+              <keyword>informatisation</keyword>
+              <keyword>mycology</keyword>
+              <keyword>zoology</keyword>
+              <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+      <intellectualRights>
+        <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+      </intellectualRights>
+      <distribution scope="document">
+          <online>
+              <url function="information">http://musees.aurillac.fr</url>
+          </online>
+      </distribution>
+      <coverage>
+            <geographicCoverage>
+                  <geographicDescription>Global coverage</geographicDescription>
+                  <boundingCoordinates>
+                      <westBoundingCoordinate>-180</westBoundingCoordinate>
+                      <eastBoundingCoordinate>180</eastBoundingCoordinate>
+                      <northBoundingCoordinate>90</northBoundingCoordinate>
+                      <southBoundingCoordinate>-90</southBoundingCoordinate>
+                  </boundingCoordinates>
+            </geographicCoverage>
+      </coverage>
+      <maintenance>
+          <description>
+              <para></para>
+          </description>
+          <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+      </maintenance>
+      <contact>
+    <individualName>
+<givenName>Marie-Pierre</givenName>          <surName>Hauquin</surName>
+    </individualName>
+<organizationName>Muséum des Volcans</organizationName><positionName>Chargée des collections botanique</positionName>    <address>
+<deliveryPoint>Château Saint Etienne</deliveryPoint><city>Aurillac</city><postalCode>15000</postalCode><country>FRANCE</country>    </address>
+<phone>04/71/48/07/00</phone><electronicMailAddress>marie-pierre.hauquin@aurillac.fr</electronicMailAddress>      </contact>
+      <methods>
+            <methodStep>
+                <description>
+                    <para></para>
+                </description>
+            </methodStep>
+      </methods>
+
+</dataset>
+
+<additionalMetadata>
+    <metadata>
+      <gbif>
+        <dateStamp>2022-09-05T14:31:36Z</dateStamp>
+      <citation>Huet E, Hauquin M (2022). Muséum des Volcans. RECOLNAT. Occurrence dataset https://doi.org/10.15468/dyynqt accessed via GBIF.org on 2022-09-05.</citation>
+              <resourceLogoUrl>https://ipt-uat.recolnat.org/logo.do?r=aur</resourceLogoUrl>
+      </gbif>
+    </metadata>
+</additionalMetadata>
+
+</eml:eml>
