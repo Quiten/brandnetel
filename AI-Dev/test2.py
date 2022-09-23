@@ -11,88 +11,6 @@ from tensorflow.keras.models import Sequential
 
 import pathlib
 
-checkpoint_path = "/Users/mr.q/Desktop/School/PWS/coderclass/AI-Dev/checkpointsPlant/cp.ckpt"
-checkpoint_dir = os.path.dirname(checkpoint_path)
-
-dataset_url = "https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz"
-data_dir = tf.keras.utils.get_file('flower_photos', origin=dataset_url, untar=True)
-data_dir = pathlib.Path(data_dir)
-
-#parameters 
-batch_size = 32
-img_height = 180
-img_width = 180
-
-train_ds = tf.keras.utils.image_dataset_from_directory(
-  data_dir,
-  validation_split=0.2,
-  subset="training",
-  seed=123,
-  image_size=(img_height, img_width),
-  batch_size=batch_size)
-
-val_ds = tf.keras.utils.image_dataset_from_directory(
-  data_dir,
-  validation_split=0.2,
-  subset="validation",
-  seed=123,
-  image_size=(img_height, img_width),
-  batch_size=batch_size)
-
-class_names = train_ds.class_names
-
-AUTOTUNE = tf.data.AUTOTUNE
-
-train_ds = train_ds.cache().shuffle(1000).prefetch(buffer_size=AUTOTUNE)
-val_ds = val_ds.cache().prefetch(buffer_size=AUTOTUNE)
-
-normalization_layer = layers.Rescaling(1./255)
-
-normalized_ds = train_ds.map(lambda x, y: (normalization_layer(x), y))
-image_batch, labels_batch = next(iter(normalized_ds))
-first_image = image_batch[0]
-
-num_classes = len(class_names)
-
-
-def test(model, url):
-  sunflower_url = url
-  sunflower_path = tf.keras.utils.get_file('Red_sunflower', origin=sunflower_url)
-
-  img = tf.keras.utils.load_img(
-      sunflower_path, target_size=(img_height, img_width)
-  )
-  img_array = tf.keras.utils.img_to_array(img)
-  img_array = tf.expand_dims(img_array, 0) # Create a batch
-
-  predictions = model.predict(img_array)
-  score = tf.nn.softmax(predictions[0])
-
-  print(
-      "This image most likely belongs to {} with a {:.2f} percent confidence."
-      .format(class_names[np.argmax(score)], 100 * np.max(score))
-  )
-
-def training(model, cycle):
-  cp_callback = tf.keras.callbacks.ModelCheckpoint(filepath=checkpoint_path,
-                                                 save_weights_only=True,
-                                                 verbose=1,
-                                                 #save_freq=5*batch_size
-                                                 )
-  
-  
-  model.summary()
-  
-  epochs=cycle
-  history = model.fit(
-    train_ds,
-    validation_data=val_ds,
-    epochs=epochs,
-    callbacks=[cp_callback]
-    )
-  return history
-  
-
 def info(history, epochs):
     acc = history.history['accuracy']
     val_acc = history.history['val_accuracy']
@@ -115,3 +33,71 @@ def info(history, epochs):
     plt.legend(loc='upper right')
     plt.title('Training and Validation Loss')
     plt.show()
+
+def test(model, url, img_height, img_width, class_names):
+  sunflower_url = url
+  sunflower_path = tf.keras.utils.get_file('Red_sunflower', origin=sunflower_url)
+
+  img = tf.keras.utils.load_img(
+      sunflower_url, target_size=(img_height, img_width)
+  )
+  img_array = tf.keras.utils.img_to_array(img)
+  img_array = tf.expand_dims(img_array, 0) # Create a batch
+
+  predictions = model.predict(img_array)
+  score = tf.nn.softmax(predictions[0])
+
+  print(
+      "This image most likely belongs to {} with a {:.2f} percent confidence."
+      .format(class_names[np.argmax(score)], 100 * np.max(score))
+  )  
+
+def test2(model, class_names, test_images, test_labels):
+
+  probability_model = tf.keras.Sequential([model, tf.keras.layers.Softmax()])
+  predictions = probability_model.predict(test_images)
+
+  def plot_image(i, predictions_array, true_label, img):
+    true_label, img = true_label[i], img[i]
+    plt.grid(False)
+    plt.xticks([])
+    plt.yticks([])
+
+    plt.imshow(img, cmap=plt.cm.binary)
+
+    predicted_label = np.argmax(predictions_array)
+    if predicted_label == true_label:
+      color = 'blue'
+    else:
+      color = 'red'
+
+    plt.xlabel("{} {:2.0f}% ({})".format(class_names[predicted_label],
+                                  100*np.max(predictions_array),
+                                  class_names[true_label]),
+                                  color=color)
+
+  def plot_value_array(i, predictions_array, true_label):
+    true_label = true_label[i]
+    plt.grid(False)
+    plt.xticks(range(10))
+    plt.yticks([])
+    thisplot = plt.bar(range(6), predictions_array, color="#777777")
+    plt.ylim([0, 1])
+    predicted_label = np.argmax(predictions_array)
+
+    thisplot[predicted_label].set_color('red')
+    thisplot[true_label].set_color('blue')
+    
+  num_rows = 3
+  num_cols = 3
+  num_images = num_rows*num_cols
+  plt.figure(figsize=(2*2*num_cols, 2*num_rows))
+  for i in range(num_images):
+    plt.subplot(num_rows, 2*num_cols, 2*i+1)
+    plot_image(i, predictions[i], test_labels, test_images)
+    plt.subplot(num_rows, 2*num_cols, 2*i+2)
+    plot_value_array(i, predictions[i], test_labels)
+  plt.tight_layout()
+  plt.show()
+
+

@@ -14,14 +14,32 @@ img_height = 28
 img_width = 28
 
 #
-fashion_mnist = tf.keras.datasets.fashion_mnist
-(train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
+# fashion_mnist = tf.keras.datasets.fashion_mnist
+# (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
 
-checkpoint_path = "/Users/mr.q/Desktop/School/PWS/coderclass/AI-Dev/checkpoints/cp.ckpt"
+data_dir = "/Users/mr.q/Desktop/School/PWS/coderclass/AI-Dev/planten"
+test_ds = tf.keras.utils.image_dataset_from_directory(
+    data_dir,
+    labels='inferred',
+    label_mode='int',
+    class_names=None,
+    color_mode='rgb',
+    batch_size=batch_size,
+    image_size=(256, 256),
+    shuffle=True,
+    seed=123,
+    follow_links=False,
+    crop_to_aspect_ratio=False
+)
+(train_images, train_labels), (test_images, test_labels) = test_ds
+
+# checkpoint_path = "/Users/mr.q/Desktop/School/PWS/coderclass/AI-Dev/checkpoints/cp.ckpt"
+checkpoint_path = "/Users/mr.q/Desktop/School/PWS/coderclass/AI-Dev/checkpointsPlant/cp.ckpt"
 checkpoint_dir = os.path.dirname(checkpoint_path)
 
 #
-class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
+# class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
+class_names = test_ds.class_names
 
 train_images = train_images / 255.0
 test_images = test_images / 255.0
@@ -46,7 +64,8 @@ model.summary()
 cp_callback = tf.keras.callbacks.ModelCheckpoint(filepath=checkpoint_path,
                                                  save_weights_only=True,
                                                  verbose=1,
-                                                 save_freq=5*batch_size)
+                                                #  save_freq=5*batch_size
+                                                 )
 
 
 #Train the model 
