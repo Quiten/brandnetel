@@ -108,7 +108,7 @@ def test2(model, class_names, test_images, test_labels):
     plt.grid(False)
     plt.xticks(range(10))
     plt.yticks([])
-    thisplot = plt.bar(range(6), predictions_array, color="#777777")
+    thisplot = plt.bar(range(1), predictions_array, color="#777777")
     plt.ylim([0, 1])
     predicted_label = np.argmax(predictions_array)
 
@@ -149,7 +149,7 @@ def process_path(file_path):
   return img, label
 
 # Location of where the model (weights) are saved 
-checkpoint_path = "/Users/mr.q/Desktop/School/PWS/coderclass/AI-Dev/checkpointsPlant/cp.ckpt"
+checkpoint_path = "/Users/mr.q/Desktop/School/PWS/coderclass/AI-Dev/checkpoints"
 checkpoint_dir = os.path.dirname(checkpoint_path)
 
 # dataset_url = "https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz"
@@ -254,29 +254,33 @@ cp_callback = tf.keras.callbacks.ModelCheckpoint(filepath=checkpoint_path,
                                                  )
 
 #Loading of weigths 
-# latest = tf.train.latest_checkpoint(checkpoint_dir)
-# model.load_weights(latest)
+latest = tf.train.latest_checkpoint(checkpoint_dir)
+model.load_weights(latest)
 
 #training of model
-epochs = 5
+epochs = 2
 
 model.summary()
-model = model.fit(
-    image_batch,
-    labels_batch,
+model.fit(
+    train_ds,
     epochs=epochs,
-    validation_data=(image_batch, labels_batch),
+    validation_data=val_ds,
     callbacks=[cp_callback])
 
-info(model, epochs)
+# info(model, epochs)
 
 #Saving of weights 
-# history.save(checkpoint_dir)
+# print("1")
+# model.save_weights(checkpoint_dir)
+
+# Save model 
+print("2")
+model.save('/Users/mr.q/Desktop/School/PWS/coderclass/AI-Dev/saved_model')
 
 #test accuracy 
 loss, acc = model.evaluate(train_ds, verbose=2)
 print("Restored model, accuracy: {:5.2f}%".format(100 * acc))
 
 #Testing of model
-# test(model, "/Users/mr.q/Desktop/School/PWS/coderclass/AI-Dev/planten/tulips/11746276_de3dec8201.jpg", img_height, img_width, class_names)
-test2(model, class_names, image_batch, labels_batch)
+test(model, "/Users/mr.q/Desktop/School/PWS/coderclass/AI-Dev/ding/Urtica_dioica07_ies.jpg", img_height, img_width, class_names)
+# test2(model, class_names, image_batch, labels_batch)

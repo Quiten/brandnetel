@@ -275,7 +275,7 @@ latest = tf.train.latest_checkpoint(checkpoint_dir)
 model.load_weights(latest)
 
 #training of model
-epochs = 2
+# epochs = 10
 
 # model.summary()
 # model = model.fit(
@@ -294,6 +294,6 @@ loss, acc = model.evaluate(train_ds, verbose=2)
 print("Restored model, accuracy: {:5.2f}%".format(100 * acc))
 
 #Testing of model
-# test(model, "/Users/mr.q/Desktop/School/PWS/coderclass/AI-Dev/planten/tulips/11746276_de3dec8201.jpg", img_height, img_width, class_names)
+test(model, "/Users/mr.q/Desktop/School/PWS/coderclass/AI-Dev/ding/randomBlad.png", img_height, img_width, class_names)
 # test2(model, "/Users/mr.q/Desktop/School/PWS/coderclass/AI-Dev/planten/tulips/11746276_de3dec8201.jpg", img_height, img_width, class_names, train_ds, image_batch, labels_batch)
 # test3(model, class_names, image_batch, labels_batch)

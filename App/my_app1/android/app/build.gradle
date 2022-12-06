@@ -26,17 +26,7 @@ apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
-    compileSdkVersion flutter.compileSdkVersion
-    ndkVersion flutter.ndkVersion
-
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
-
-    kotlinOptions {
-        jvmTarget = '1.8'
-    }
+    compileSdkVersion 32
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
@@ -47,8 +37,8 @@ android {
         applicationId "com.example.my_app1"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-build-configuration.
-        minSdkVersion flutter.minSdkVersion
-        targetSdkVersion flutter.targetSdkVersion
+        minSdkVersion 21
+        targetSdkVersion 32
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
@@ -60,42 +50,11 @@ android {
             signingConfig signingConfigs.debug
         }
     }
-
     aaptOptions {
-        noCompress 'tflite'
+        noCompress 'assets/model.tflite'
         noCompress 'lite'
     }
-
-    ///
-    buildscript {
-        ext.kotlin_version = '1.6.21'
-        repositories {
-            google()
-            jcenter()
-        }
     
-        dependencies {
-            classpath 'com.android.tools.build:gradle:4.1.0'
-            classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        }
-    }
-    
-    allprojects {
-        repositories {
-            google()
-            jcenter()
-        }
-    }
-    
-    rootProject.buildDir = '../build'
-    subprojects {
-        project.buildDir = "${rootProject.buildDir}/${project.name}"
-        project.evaluationDependsOn(':app')
-    }
-    
-    task clean(type: Delete) {
-        delete rootProject.buildDir
-    }
 }
 
 flutter {
@@ -105,4 +64,3 @@ flutter {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
-
