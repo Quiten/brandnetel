@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:io';
 import 'package:image_picker/image_picker.dart';
 import 'package:tflite/tflite.dart';
+import 'package:image/image.dart' as img;
 import 'package:meta/meta.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -32,13 +33,13 @@ class _ImageCaptureState extends State<ImageCapture> {
   XFile? _imageFile;
   File? _image;
 
-  List _result = List.empty();
+  List _result = [];
   String _confidence = ""; 
   String _label = "";
 
   Future<void> _pickImage(ImageSource source) async {
     var picture = await ImagePicker().pickImage(source : source, maxHeight: 400.0, maxWidth: 300.0);
-    
+
     if (picture != null){
       setState(() {
         _imageFile = picture;
@@ -55,25 +56,31 @@ class _ImageCaptureState extends State<ImageCapture> {
   }
 
   _applyModel (File file) async {
+    print("Model used on " + file.path);
     var res = await Tflite.runModelOnImage(
       path: file.path,
       numResults: 2,
-      threshold: 0.5,
-      imageMean: 127.5,
-      imageStd: 127.5, 
+      threshold: 0,
+      imageMean: 1,
+      imageStd: 2, 
       asynch: true        // defaults to true
     );
 
     setState(() {
       print("Label and Confidence");
-      _result = res!;
-      print("$_result");
-      String str = _result[0]["label"];
-      _label = str;
-      _confidence = (_result != null )
-        ? (_result[0]['confidence']*100.0).toString().substring(0, 2) + "%"
-        : "";
-      print("Label: $_label and Confidence: $_confidence");
+      if (res != null && res.isNotEmpty){
+        _result = res;
+        String str = _result[0]["label"];
+        _label = str;
+        _confidence = (_result != null )
+          ? (_result[0]['confidence']*100.0).toString().substring(0, 2) + "%"
+          : "";
+        print("Label: $_label and Confidence: $_confidence");
+      }
+      else {
+        _label = "";
+        _confidence = "";
+      }
     });
   }
 
