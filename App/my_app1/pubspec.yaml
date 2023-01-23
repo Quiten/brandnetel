@@ -50,7 +50,7 @@ dependencies:
   cupertino_icons: ^1.0.2
 
 # logo 
-dev_dependencies:
+dev_dependencies:g
   flutter_test:
     sdk: flutter
   flutter_launcher_icons: ^0.9.2

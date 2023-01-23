@@ -65,7 +65,7 @@ class _ImageCaptureState extends State<ImageCapture> {
       imageStd: 2, 
       asynch: true        // defaults to true
     );
-
+//de tekst onder de afbeelding nadat de AI naar de afbeelding heeft gekeken
     setState(() {
       print("Label and Confidence");
       if (res != null && res.isNotEmpty){
