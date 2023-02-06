@@ -2,11 +2,9 @@ import 'dart:async';
 import 'dart:io';
 import 'package:image_picker/image_picker.dart';
 import 'package:tflite/tflite.dart';
-import 'package:image/image.dart' as img;
 import 'package:meta/meta.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-// import 'package:tflite_flutter/tflite_flutter.dart';
 
 void main() async {
   runApp(MyApp());
@@ -38,7 +36,7 @@ class _ImageCaptureState extends State<ImageCapture> {
   String _label = "";
 
   Future<void> _pickImage(ImageSource source) async {
-    var picture = await ImagePicker().pickImage(source : source, maxHeight: 400.0, maxWidth: 300.0);
+    var picture = await ImagePicker().pickImage(source : source, maxHeight: 500.0, maxWidth: 500.0);
 
     if (picture != null){
       setState(() {
@@ -49,23 +47,26 @@ class _ImageCaptureState extends State<ImageCapture> {
     }
   }
 
+  // AI model laden 
   _loadModel () async {
     var result = await Tflite.loadModel(
       model: "assets/model.tflite", 
       labels: "assets/label.txt");
   }
 
+  // AI toepassen
   _applyModel (File file) async {
     print("Model used on " + file.path);
     var res = await Tflite.runModelOnImage(
       path: file.path,
       numResults: 2,
       threshold: 0,
-      imageMean: 1,
+      imageMean: 0,
       imageStd: 2, 
       asynch: true        // defaults to true
     );
 
+    // AI toepassen 
     setState(() {
       print("Label and Confidence");
       if (res != null && res.isNotEmpty){
@@ -84,6 +85,7 @@ class _ImageCaptureState extends State<ImageCapture> {
     });
   }
 
+  // Toepassing van AI laten zien en foto laten zien
   Future<void> _calculate() async {
     return showDialog<void>(
         context: context,
@@ -91,7 +93,6 @@ class _ImageCaptureState extends State<ImageCapture> {
           return AlertDialog(
             title: Text("INFO"),
             content: (_imageFile != null)
-            // ? Text("Name: $_label \nConfidence: $_confidence")
             ? Text(_imageFile!.path, textAlign: TextAlign.center,)
             : Text("There's no image"),
             actions: [
@@ -116,6 +117,7 @@ class _ImageCaptureState extends State<ImageCapture> {
     _loadModel();
   }
 
+  // UI knoppen zoals: foto's maken, foto's van album en path van foto
   @override 
   Widget build(BuildContext context){
     return Scaffold( 

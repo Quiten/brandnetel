@@ -6,13 +6,13 @@ import PIL
 import tensorflow as tf
 import time 
 import os 
-# from test2 import test, test2
+
 from tensorflow import keras
 from tensorflow.keras import layers
 from tensorflow.keras.models import Sequential
 import pathlib
 
-saved_model_dir = "/Users/mr.q/Desktop/School/PWS/coderclass/AI-Dev/saved_model"
+saved_model_dir = "AI-Dev/saved_model"
 
 # Convert the model
 converter = tf.lite.TFLiteConverter.from_saved_model(saved_model_dir) # path to the SavedModel directory
